@@ -1,0 +1,1517 @@
+//colors
+$color_mine_shaft_approx: #333333;
+$color_tapa_approx: #777777;
+$color_storm_dust_approx: #666666;
+$black_50: rgba(0,0,0,0.5);
+$white: #ffffff;
+$black: #000000;
+$color_ebony_approx: #0e0623;
+$color_azure_approx: #3b5998;
+$color_picton_blue_approx: #55acee;
+$color_valencia_approx: #dd4b39;
+$color_deep_cerulean_approx: #0976b4;
+$color_cardinal_approx: #cc2127;
+$color_alizarin_crimson_approx: #e52d27;
+$color_pickled_bluewood_approx: #293b52;
+$color_cranberry_approx: #d75281;
+$color_tree_poppy_approx: #fd9f13;
+$color_denim_approx: #1f76b6;
+$color_studio_approx: #8a3ab9;
+$color_cerulean_approx: #00aff0;
+$color_violet_eggplant_approx: #9c27b0;
+$color_tulip_tree_approx: #f3aa36;
+$color_dodger_blue_approx: #3980f9;
+$black_10: rgba(0,0,0,0.1);
+$color_celeste_approx: #d1d1d1;
+$color_shark_approx: #282828;
+$white_5: rgba(255,255,255,.05);
+$color_mountain_mist_approx: #929292;
+$color_gold_tips_approx: #ebba16;
+$red: red;
+$color_masala_approx: #3e3e3e;
+$color_mercury_approx: #e4e4e4;
+$color_gravel_approx: #484848;
+$color_deluge_approx: #7b68ad;
+$color_alabaster_approx: #fbfbfb;
+$color_suva_gray_approx: #888888;
+$color_flamingo_approx: #ff5926;
+$color_wild_sand_approx: #f5f5f5;
+$color_fuscous_gray_approx: #555555;
+$color_log_cabin_approx: #222222;
+
+//fonts
+$font_0: poppins;
+$font_1: playfair display;
+
+//urls
+$url_0: url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic);
+$url_1: url(https://fonts.googleapis.com/css?family=Poppins:400,500,300,600,700);
+$url_2: url(animate.css);
+$url_3: url(owl.carousel.css);
+$url_4: url(slick.css);
+$url_5: url(tether.min.css);
+$url_6: url(jquery.mCustomScrollbar.min.css);
+
+//@extend-elements
+//original selectors
+//ul li, ol li
+%extend_1 {
+	font-family: $font_0;
+	color: $color_storm_dust_approx;
+	font-size: 13px;
+	line-height: 20px;
+}
+
+//original selectors
+//.parlx, .fxd-bg
+%extend_2 {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+
+//original selectors
+//.blc-lyr:before, .wht-lyr:before, .drk-blu-lyr:before
+%extend_3 {
+	content: "";
+	height: 100%;
+	left: 0;
+	opacity: 0.95;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 0;
+}
+
+//original selectors
+//.sec-tl-innr >i.tl-tp:before, .sec-tl-innr >i.tl-tp:after
+%extend_4 {
+	content: "";
+	border: 1px dashed;
+	display: inline-block;
+	position: relative;
+	background-color: $white;
+}
+
+//original selectors
+//.cnt-frm input, .cnt-frm textarea
+%extend_5 {
+	background-color: $color_alabaster_approx;
+	font-size: 11px;
+	padding: 18px 30px;
+	height: 55px;
+	width: 100%;
+	float: left;
+	color: $color_suva_gray_approx;
+	margin-bottom: 10px;
+}
+
+
+@import $url_0;
+@import $url_1;
+@import $url_2;
+@import $url_3;
+@import $url_4;
+@import $url_5;
+@import $url_6;
+html {
+	overflow-x: hidden;
+}
+body {
+	overflow-x: hidden;
+	float: left;
+	font-family: $font_0;
+	letter-spacing: 0.3px;
+	margin: 0;
+	position: relative;
+	width: 100%;
+}
+h1 {
+	font-family: $font_0;
+	color: $color_mine_shaft_approx;
+}
+h2 {
+	font-family: $font_0;
+	color: $color_mine_shaft_approx;
+}
+h3 {
+	font-family: $font_0;
+	color: $color_mine_shaft_approx;
+}
+h4 {
+	font-family: $font_0;
+	color: $color_mine_shaft_approx;
+}
+h5 {
+	font-family: $font_0;
+	color: $color_mine_shaft_approx;
+}
+h6 {
+	font-family: $font_0;
+	color: $color_mine_shaft_approx;
+}
+p {
+	font-family: $font_0;
+	color: $color_tapa_approx;
+	line-height: 26px;
+	font-size: 13px;
+	letter-spacing: 0.3px;
+}
+a {
+	color: inherit;
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: all .3s linear;
+	&:hover {
+		text-decoration: none;
+		outline: none;
+	}
+	&:focus {
+		text-decoration: none;
+		outline: none;
+		outline: none;
+		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: none;
+	}
+	&.facebook {
+		background: $color_azure_approx;
+		border-color: $color_azure_approx;
+		&:hover {
+			border-color: $color_azure_approx;
+			color: $color_azure_approx;
+		}
+	}
+	&.facebook-clr {
+		border-color: $color_azure_approx;
+		color: $color_azure_approx;
+		&:hover {
+			background: $color_azure_approx;
+			border-color: $color_azure_approx;
+		}
+	}
+	&.twitter {
+		background: $color_picton_blue_approx;
+		border-color: $color_picton_blue_approx;
+		&:hover {
+			border-color: $color_picton_blue_approx;
+			color: $color_picton_blue_approx;
+		}
+	}
+	&.twitter-clr {
+		border-color: $color_picton_blue_approx;
+		color: $color_picton_blue_approx;
+		&:hover {
+			background: $color_picton_blue_approx;
+			border-color: $color_picton_blue_approx;
+		}
+	}
+	&.google {
+		background: $color_valencia_approx;
+		border-color: $color_valencia_approx;
+		&:hover {
+			border-color: $color_valencia_approx;
+			color: $color_valencia_approx;
+		}
+	}
+	&.google-clr {
+		border-color: $color_valencia_approx;
+		color: $color_valencia_approx;
+		&:hover {
+			background: $color_valencia_approx;
+			border-color: $color_valencia_approx;
+		}
+	}
+	&.linkedin {
+		background: $color_deep_cerulean_approx;
+		border-color: $color_deep_cerulean_approx;
+		&:hover {
+			border-color: $color_deep_cerulean_approx;
+			color: $color_deep_cerulean_approx;
+		}
+	}
+	&.linkedin-clr {
+		border-color: $color_deep_cerulean_approx;
+		color: $color_deep_cerulean_approx;
+		&:hover {
+			background: $color_deep_cerulean_approx;
+			border-color: $color_deep_cerulean_approx;
+		}
+	}
+	&.pinterest {
+		background: $color_cardinal_approx;
+		border-color: $color_cardinal_approx;
+		&:hover {
+			border-color: $color_cardinal_approx;
+			color: $color_cardinal_approx;
+		}
+	}
+	&.pinterest-clr {
+		border-color: $color_cardinal_approx;
+		color: $color_cardinal_approx;
+		&:hover {
+			background: $color_cardinal_approx;
+			border-color: $color_cardinal_approx;
+		}
+	}
+	&.youtube {
+		background: $color_alizarin_crimson_approx;
+		border-color: $color_alizarin_crimson_approx;
+		&:hover {
+			border-color: $color_alizarin_crimson_approx;
+			color: $color_alizarin_crimson_approx;
+		}
+	}
+	&.youtube-clr {
+		border-color: $color_alizarin_crimson_approx;
+		color: $color_alizarin_crimson_approx;
+		&:hover {
+			background: $color_alizarin_crimson_approx;
+			border-color: $color_alizarin_crimson_approx;
+		}
+	}
+	&.tumblr {
+		background: $color_pickled_bluewood_approx;
+		border-color: $color_pickled_bluewood_approx;
+		&:hover {
+			border-color: $color_pickled_bluewood_approx;
+			color: $color_pickled_bluewood_approx;
+		}
+	}
+	&.tumblr-clr {
+		border-color: $color_pickled_bluewood_approx;
+		color: $color_pickled_bluewood_approx;
+		&:hover {
+			background: $color_pickled_bluewood_approx;
+			border-color: $color_pickled_bluewood_approx;
+		}
+	}
+	&.dribbble {
+		background: $color_cranberry_approx;
+		border-color: $color_cranberry_approx;
+		&:hover {
+			border-color: $color_cranberry_approx;
+			color: $color_cranberry_approx;
+		}
+	}
+	&.dribbble-clr {
+		border-color: $color_cranberry_approx;
+		color: $color_cranberry_approx;
+		&:hover {
+			background: $color_cranberry_approx;
+			border-color: $color_cranberry_approx;
+		}
+	}
+	&.reddit {
+		background: $black;
+		border-color: $black;
+		&:hover {
+			border-color: $black;
+			color: $black;
+		}
+	}
+	&.reddit-clr {
+		border-color: $black;
+		color: $black;
+		&:hover {
+			background: $black;
+			border-color: $black;
+		}
+	}
+	&.rss {
+		background: $color_tree_poppy_approx;
+		border-color: $color_tree_poppy_approx;
+		&:hover {
+			border-color: $color_tree_poppy_approx;
+			color: $color_tree_poppy_approx;
+		}
+	}
+	&.rss-clr {
+		border-color: $color_tree_poppy_approx;
+		color: $color_tree_poppy_approx;
+		&:hover {
+			background: $color_tree_poppy_approx;
+			border-color: $color_tree_poppy_approx;
+		}
+	}
+	&.github {
+		background: $color_denim_approx;
+		border-color: $color_denim_approx;
+		&:hover {
+			border-color: $color_denim_approx;
+			color: $color_denim_approx;
+		}
+	}
+	&.github-clr {
+		border-color: $color_denim_approx;
+		color: $color_denim_approx;
+		&:hover {
+			background: $color_denim_approx;
+			border-color: $color_denim_approx;
+		}
+	}
+	&.vimeo {
+		background: $color_picton_blue_approx;
+		border-color: $color_picton_blue_approx;
+		&:hover {
+			border-color: $color_picton_blue_approx;
+			color: $color_picton_blue_approx;
+		}
+	}
+	&.vimeo-clr {
+		border-color: $color_picton_blue_approx;
+		color: $color_picton_blue_approx;
+		&:hover {
+			background: $color_picton_blue_approx;
+			border-color: $color_picton_blue_approx;
+		}
+	}
+	&.instagram {
+		background: $color_studio_approx;
+		border-color: $color_studio_approx;
+		&:hover {
+			border-color: $color_studio_approx;
+			color: $color_studio_approx;
+		}
+	}
+	&.instagram-clr {
+		border-color: $color_studio_approx;
+		color: $color_studio_approx;
+		&:hover {
+			background: $color_studio_approx;
+			border-color: $color_studio_approx;
+		}
+	}
+	&.skype {
+		background: $color_cerulean_approx;
+		border-color: $color_cerulean_approx;
+		&:hover {
+			border-color: $color_cerulean_approx;
+			color: $color_cerulean_approx;
+		}
+	}
+	&.skype-clr {
+		border-color: $color_cerulean_approx;
+		color: $color_cerulean_approx;
+		&:hover {
+			background: $color_cerulean_approx;
+			border-color: $color_cerulean_approx;
+		}
+	}
+}
+iframe {
+	border: 0;
+	width: 100%;
+	float: left;
+}
+input {
+	border: 0;
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: all .3s linear;
+	&:focus {
+		outline: none;
+		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: none;
+	}
+}
+textarea {
+	border: 0;
+	resize: none;
+	&:focus {
+		outline: none;
+		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: none;
+	}
+}
+select {
+	border: 0;
+	&:focus {
+		outline: none;
+		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: none;
+	}
+}
+button {
+	border: 0;
+	cursor: pointer;
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: all .3s linear;
+	&:focus {
+		outline: none;
+		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: none;
+	}
+}
+input[type="submit"] {
+	cursor: pointer;
+}
+.fileContainer {
+	cursor: pointer;
+}
+input[type="file"] {
+	cursor: pointer;
+}
+main {
+	float: left;
+	position: relative;
+	width: 100%;
+	&.boxed {
+		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: 0 0 10px $black_50;
+		float: none;
+		margin: 0 auto;
+		width: 1230px;
+	}
+}
+section {
+	float: left;
+	position: relative;
+	width: 100%;
+}
+.gp {
+	float: left;
+	padding: 100px 0;
+	position: relative;
+	width: 100%;
+	&.lsgp {
+		padding: 70px 0;
+	}
+	&.tp270 {
+		padding-top: 270px;
+	}
+	&.bp270 {
+		padding-bottom: 270px;
+	}
+	&.tp175 {
+		padding-top: 175px;
+	}
+	&.bp175 {
+		padding-bottom: 175px;
+	}
+	&.tp140 {
+		padding-top: 140px;
+	}
+	&.bp140 {
+		padding-bottom: 140px;
+	}
+	&.notp {
+		padding-top: 0;
+	}
+	&.nobp {
+		padding-bottom: 0;
+	}
+	&.nogp {
+		padding: 0;
+	}
+}
+.lsgp {
+	padding: 70px 0;
+}
+.tp270 {
+	padding-top: 270px;
+}
+.bp270 {
+	padding-bottom: 270px;
+}
+.tp175 {
+	padding-top: 175px;
+}
+.bp175 {
+	padding-bottom: 175px;
+}
+.tp140 {
+	padding-top: 140px;
+}
+.bp140 {
+	padding-bottom: 140px;
+}
+.notp {
+	padding-top: 0;
+}
+.nobp {
+	padding-bottom: 0;
+}
+.nogp {
+	padding: 0;
+}
+.container {
+	padding: 0;
+	width: 1170px;
+}
+.ovrlp-175 {
+	margin-top: -175px;
+}
+.ovrlp-275 {
+	margin-top: -275px;
+}
+.ovrlp-330 {
+	margin-top: -330px;
+}
+.mrg {
+	margin: 0;
+	> div {
+		padding: 0;
+	}
+}
+.mrg5 {
+	margin: 0 -2.5px;
+	> div {
+		padding: 0 2.5px;
+	}
+}
+.mrg10 {
+	margin: 0 -5px;
+	> div {
+		padding: 0 5px;
+	}
+}
+.rmv-ext {
+	float: left;
+	margin-bottom: -30px;
+	width: 100%;
+}
+.parlx {
+	@extend %extend_2;
+	&.patern-bg {
+		background-repeat: repeat !important;
+	}
+}
+.fxd-bg {
+	@extend %extend_2;
+	background-attachment: fixed !important;
+	background-size: cover!important;
+}
+.parlx80 {
+	&:before {
+		height: 80%;
+	}
+	.parlx {
+		height: 80%;
+	}
+}
+img {
+	max-width: 100%;
+	vertical-align: middle;
+}
+.scl-btn2 {
+	color: $white;
+}
+:before {
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: all .3s linear;
+}
+:after {
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: all .3s linear;
+}
+.membr-inf {
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: all .3s linear;
+	position: absolute;
+	padding: 40px;
+	left: 0;
+	right: 0;
+	> h4 {
+		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: all .3s linear;
+		font-size: 20px;
+		letter-spacing: .2px;
+		font-weight: 700;
+		color: $white;
+		margin-bottom: 3px;
+	}
+	> span {
+		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: all .3s linear;
+		font-size: 12px;
+		letter-spacing: .2px;
+	}
+	> p {
+		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: all .3s linear;
+		font-size: 14px;
+		line-height: 28px;
+		color: $white;
+		margin: 30px 0 0;
+		opacity: 0;
+		visibility: hidden;
+	}
+}
+.scl-inf {
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: all .3s linear;
+	opacity: 0;
+	visibility: hidden;
+	margin-top: 11px;
+	> a {
+		display: inline-block;
+		font-size: 10.5px;
+		color: $white;
+		padding: 0 12px;
+		border-right: 1px solid $white;
+		line-height: 10px;
+		&:last-child {
+			border-right: 0;
+		}
+		&:hover {
+			color: $color_ebony_approx;
+		}
+	}
+}
+.acordn-itm {
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: all .3s linear;
+	float: left;
+	width: 100%;
+	border-bottom: 3px solid $color_gravel_approx;
+	> h4 {
+		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: all .3s linear;
+		float: left;
+		width: 100%;
+		padding: 25px 0;
+		margin-bottom: 0;
+		font-size: 15px;
+		font-weight: 600;
+		letter-spacing: 0;
+		color: $white;
+		cursor: pointer;
+		i {
+			float: right;
+			color: $color_deluge_approx;
+		}
+		&.active i:before {
+			content: "\f062";
+		}
+	}
+	&:last-child {
+		border-bottom: 0;
+	}
+}
+header {
+	background-color: $white;
+	float: left;
+	width: 100%;
+	padding: 20px 0;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 6px 45px $black_10;
+	position: relative;
+	z-index: 99999;
+	* {
+		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: all .3s linear;
+	}
+	&.stck {
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+	&.sticky {
+		padding: 8px 0;
+		position: fixed;
+		.logo img {
+			max-width: 47%;
+		}
+	}
+	> .container {
+		display: table;
+	}
+}
+.membr-wrp {
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+	overflow: hidden;
+	padding-top: 35px;
+	position: relative;
+	&:hover {
+		.membr-inf {
+			//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+			transform: translateY(-50%);
+			background-color: $red;
+			top: 50%;
+			padding: 40px 50px;
+			margin-top: -17.5px;
+			> h4 {
+			}
+			> span {
+				color: $white;
+			}
+			.scl-inf {
+				opacity: 1;
+				visibility: visible;
+			}
+			> p {
+				opacity: 1;
+				visibility: visible;
+			}
+		}
+		&:before {
+			opacity: 1;
+		}
+	}
+	&:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: $red;
+		opacity: 0;
+	}
+}
+.owl-carousel {
+	.owl-nav {
+		position: absolute;
+		top: 50%;
+		left: -5%;
+		right: -5%;
+		> div {
+			//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+			transform: translateY(-50%);
+			position: absolute;
+			color: $color_masala_approx;
+			font-size: 22.5px;
+			&.owl-prev {
+				left: 0;
+			}
+			&.owl-next {
+				right: 0;
+			}
+		}
+	}
+	.owl-dots {
+		position: absolute;
+		bottom: 0;
+		left: 200px;
+		> div {
+			height: 10px;
+			width: 10px;
+			display: inline-block;
+			background-color: $color_mercury_approx;
+			margin: 0 2.5px;
+		}
+	}
+}
+.nwsltr-frm {
+	display: table-cell;
+	width: 70%;
+	vertical-align: middle;
+	padding-left: 30px;
+	position: relative;
+	button {
+		//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateY(-50%);
+		position: absolute;
+		right: 30px;
+		top: 50%;
+		font-size: 10px;
+		color: $color_log_cabin_approx;
+		background-color: transparent;
+		padding: 0;
+	}
+	input {
+		float: left;
+		width: 100%;
+		background-color: $color_wild_sand_approx;
+		padding: 10px 40px 10px 35px;
+		font-size: 12px;
+		color: $color_fuscous_gray_approx;
+		height: 60px;
+	}
+}
+ {
+	//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+	transform: translateX(-50%);
+}
+.vdo-sec-innr {
+	//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+	transform: translate(-50%, -50%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	max-width: 61%;
+	width: 100%;
+	> i {
+		font-family: $font_1;
+		font-weight: 700;
+		font-size: 32px;
+		color: $white;
+		letter-spacing: 0;
+		display: block;
+		margin-bottom: 17px;
+	}
+	> h3 {
+		font-size: 32px;
+		color: $white;
+		font-weight: 700;
+		letter-spacing: 0;
+		text-transform: uppercase;
+	}
+	> span {
+		display: block;
+		margin-top: 43px;
+		a {
+			display: inline-block;
+			line-height: 70px;
+			width: 70px;
+			font-size: 30px;
+			color: $white;
+			background-color: $color_gold_tips_approx;
+		}
+	}
+}
+.brd-rd50 {
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 50%;
+}
+.sec-tl-innr {
+	display: inline-block;
+	max-width: 70%;
+	position: relative;
+	> h2 {
+		font-weight: 700;
+		letter-spacing: 0;
+		font-size: 36px;
+		margin-bottom: 10px;
+	}
+	> p {
+		margin: 17px 0 0;
+		font-size: 16px;
+		letter-spacing: 0;
+		line-height: 28px;
+	}
+	> i.tl-tp {
+		height: 86px;
+		display: inline-block;
+		border-left: 1px dashed;
+		position: relative;
+		width: 1px;
+		margin-bottom: 34px;
+		&:before {
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 50%;
+			@extend %extend_4;
+			height: 14px;
+			width: 14px;
+			top: -16px;
+			left: -8px;
+		}
+		&:after {
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 50%;
+			@extend %extend_4;
+			height: 28px;
+			width: 28px;
+			bottom: -35px;
+			left: -14px;
+		}
+	}
+}
+.brd-rd30 {
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 30px;
+}
+.brd-rd5 {
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 5px;
+}
+.brd-rd3 {
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 3px;
+}
+.brd-rd0 {
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 0;
+}
+.purpl-bg {
+	background-color: $color_violet_eggplant_approx;
+}
+.yello-bg {
+	background-color: $color_tulip_tree_approx;
+}
+.blue2-bg {
+	background-color: $color_dodger_blue_approx;
+}
+.logo {
+	display: table-cell;
+	width: 25%;
+	vertical-align: middle;
+	h1 {
+		margin: 0;
+	}
+}
+nav {
+	display: table-cell;
+	width: 75%;
+	vertical-align: middle;
+	ul {
+		padding-left: 0;
+		list-style: none;
+		margin-bottom: 0;
+		float: right;
+		li {
+			float: left;
+			margin: 0 20px;
+			font-size: 14px;
+		}
+	}
+}
+.creative-slider {
+	float: left;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	> img {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+	}
+}
+.cld-el {
+	float: left;
+	width: 100%;
+	position: absolute;
+	height: 350px;
+	bottom: -95px;
+	background-size: cover;
+	background-position: center;
+}
+.strt-txt {
+	float: left;
+	width: 100%;
+	margin-bottom: 75px;
+}
+.strt-txt-innr {
+	display: inline-block;
+	max-width: 70%;
+	> img {
+		display: inline-block;
+		margin-bottom: 50px;
+	}
+	> h2 {
+		font-size: 42px;
+		letter-spacing: -.2px;
+		font-weight: 700;
+		line-height: 50.85px;
+		margin-bottom: 25px;
+		i {
+			font-family: $font_1;
+		}
+	}
+	> p {
+		font-size: 16px;
+		letter-spacing: 0;
+		line-height: 28px;
+		margin-bottom: 0;
+		display: inline-block;
+		max-width: 95%;
+	}
+}
+.fea-bx {
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+	padding: 90px 50px 80px;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 3px 21px $black_10;
+	i {
+		display: inline-block;
+		margin-bottom: 30px;
+		font-size: 50px;
+		color: $white;
+	}
+	> h4 {
+		color: $white;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 22px;
+		letter-spacing: 0;
+		margin-bottom: 28px;
+	}
+	> p {
+		line-height: 28px;
+		color: $white;
+		font-weight: 600;
+		letter-spacing: 0;
+		font-size: 15px;
+		margin-bottom: 0;
+	}
+}
+.lgt {
+	.strt-txt-innr {
+		> h2 {
+			color: $white;
+		}
+		> p {
+			color: $color_celeste_approx;
+		}
+	}
+	.fact-bx-innr {
+		> h3 {
+			color: $white;
+		}
+		> span {
+			color: $color_mountain_mist_approx;
+		}
+	}
+}
+.strt-btns {
+	float: left;
+	width: 100%;
+	margin-top: 45px;
+	> a {
+		background-color: $color_shark_approx;
+		display: inline-block;
+		margin: 10px 5px 0;
+		color: $white;
+		padding: 17px 40px;
+		letter-spacing: 0;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 50px;
+		> i {
+			font-size: 32px;
+			float: left;
+			margin-right: 13px;
+		}
+		> span {
+			display: table;
+			font-size: 16px;
+			font-weight: 700;
+			text-transform: uppercase;
+			text-align: left;
+			i {
+				font-style: normal;
+				font-size: 12px;
+				font-weight: 400;
+				text-transform: initial;
+				display: block;
+			}
+		}
+		&.blue-bg:hover {
+			background-color: $color_shark_approx;
+		}
+	}
+}
+.funfacts-wrp {
+	float: left;
+	width: 100%;
+	padding: 0 70px;
+	margin-top: 25px;
+}
+.fact-bx {
+	float: left;
+	width: 100%;
+	margin-top: 30px;
+	> i {
+		float: left;
+		margin-right: 20px;
+		text-align: center;
+		background-color: $white_5;
+		width: 75px;
+		line-height: 75px;
+		font-size: 32px;
+	}
+}
+.fact-bx-innr {
+	display: table;
+	margin-top: 10px;
+	> h3 {
+		font-size: 35px;
+		font-weight: 700;
+		letter-spacing: .3px;
+		margin-bottom: 0;
+	}
+	> span {
+		font-size: 13px;
+		letter-spacing: .3px;
+	}
+}
+.vdo-sec {
+	float: left;
+	width: 100%;
+	position: relative;
+	&:before {
+		content: "";
+		position: absolute;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		background-color: $black;
+		opacity: .5;
+	}
+}
+.sec-tl-wrp {
+	float: left;
+	width: 100%;
+	margin-bottom: 50px;
+}
+.membr-innr {
+	float: left;
+	background-color: $color_ebony_approx;
+	padding: 0 20px 130px;
+	width: 100%;
+	> img {
+		margin-top: -35px;
+	}
+}
+.vw-al {
+	float: left;
+	width: 100%;
+	margin-top: 80px;
+	> a {
+		display: inline-block;
+		background-color: $color_ebony_approx;
+		color: $white;
+		font-size: 12px;
+		font-weight: 700;
+		letter-spacing: 0;
+		padding: 22px 64px 20px;
+	}
+}
+.amz-fea {
+	float: left;
+	width: 100%;
+}
+.amz-mckp {
+	float: left;
+	width: 100%;
+	margin-left: -60px;
+}
+.amz-tl {
+	float: left;
+	width: 100%;
+	> h2 {
+		font-size: 36px;
+		font-weight: 700;
+		letter-spacing: 0;
+		i {
+			font-family: $font_1;
+		}
+	}
+	> p {
+		font-size: 16px;
+		line-height: 28px;
+		margin: 30px 0 0;
+		letter-spacing: 0;
+	}
+}
+.fea-wrp {
+	float: left;
+	width: 100%;
+}
+.fea-bx2 {
+	float: left;
+	width: 100%;
+	margin-top: 50px;
+	> i {
+		font-size: 40px;
+		float: left;
+		margin-right: 20px;
+		margin-top: -10px;
+	}
+}
+.fea-innr {
+	display: table;
+	> h5 {
+		font-size: 16px;
+		font-weight: 700;
+		letter-spacing: 0;
+	}
+	> p {
+		margin: 15px 0 0;
+		line-height: 22px;
+		letter-spacing: 0;
+	}
+}
+.app-scrn-caro {
+	float: left;
+	width: 100%;
+	margin: -15px 0;
+}
+.app-scrn-thmb {
+	float: left;
+	width: 100%;
+	padding: 15px;
+	> img {
+		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: 0 3px 21px $black_10;
+	}
+}
+.testi-caro-wrp {
+	float: left;
+	width: 100%;
+}
+.testi-caro-innr {
+	display: inline-block;
+	width: 70%;
+	float: none;
+	text-align: left;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+.testi-bx {
+	float: left;
+	width: 100%;
+	> img {
+		float: left;
+		max-width: 150px;
+		margin-right: 50px;
+	}
+}
+.testi-bx-innr {
+	display: table;
+	vertical-align: middle;
+	> p {
+		color: $color_mine_shaft_approx;
+		font-size: 15px;
+		line-height: 24px;
+		margin-bottom: 25px;
+	}
+	> h4 {
+		font-size: 22px;
+		font-weight: 700;
+		margin-bottom: 0;
+		display: inline-block;
+	}
+	> i {
+		font-family: $font_1;
+		margin-left: 20px;
+		font-size: 15px;
+	}
+}
+.faq-wrp {
+	max-width: 600px;
+	margin: 0 auto;
+	clear: both;
+}
+.acrdn-cnt {
+	float: left;
+	width: 100%;
+	> p {
+		font-size: 14px;
+		color: $color_celeste_approx;
+		letter-spacing: 0;
+		line-height: 30px;
+		margin-bottom: 25px;
+	}
+}
+.gmp {
+	float: left;
+	height: 630px;
+	width: 100%;
+}
+.cont-wrp {
+	float: left;
+	width: 100%;
+	position: relative;
+	background-color: $white;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 3px 21px $black_10;
+}
+.cnt-inf {
+	float: left;
+	width: 100%;
+	background-color: $color_ebony_approx;
+	padding: 90px 70px;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 3px 21px $black_10;
+	position: relative;
+	z-index: 1;
+}
+.cnt-inf-tl {
+	float: left;
+	width: 100%;
+	margin-bottom: 15px;
+	> h4 {
+		font-size: 20px;
+		font-weight: 700;
+		letter-spacing: 0;
+		color: $white;
+		margin-bottom: 10px;
+	}
+	> span {
+		font-size: 14px;
+		color: $white;
+		letter-spacing: 0;
+	}
+}
+.cnt-inf-lst {
+	float: left;
+	width: 100%;
+	> p {
+		float: left;
+		width: 100%;
+		margin: 16px 0 0;
+		font-size: 14px;
+		color: $white;
+		line-height: 18px;
+		&.adr {
+			font-size: 15px;
+			margin-top: 46px;
+			line-height: 24px;
+		}
+	}
+}
+.cnt-frm {
+	float: left;
+	width: 100%;
+	padding: 83px 70px;
+	background-color: $white;
+	input {
+		@extend %extend_5;
+	}
+	textarea {
+		@extend %extend_5;
+		height: 160px;
+	}
+	button {
+		display: inline-block;
+		margin-top: 20px;
+		font-size: 12px;
+		font-weight: 700;
+		color: $white;
+		background-color: $color_flamingo_approx;
+		letter-spacing: 0;
+		padding: 22px 53px 20px;
+		font-family: $font_0;
+	}
+}
+.nwsltr-wrp {
+	float: left;
+	width: 100%;
+	display: table;
+}
+.nws-tl {
+	display: table-cell;
+	width: 30%;
+	vertical-align: middle;
+	> h4 {
+		font-size: 17px;
+		font-weight: 700;
+		letter-spacing: .1px;
+		margin-bottom: 8px;
+	}
+	> span {
+		font-size: 13px;
+		letter-spacing: .1px;
+		color: $color_storm_dust_approx;
+	}
+}
+footer {
+	background-color: $color_ebony_approx;
+	float: left;
+	width: 100%;
+}
+.ftr-wrp {
+	float: left;
+	width: 100%;
+}
+.ftr-innr {
+	display: inline-block;
+	max-width: 750px;
+	width: 100%;
+	> h1 {
+		color: $white;
+		font-weight: 700;
+		font-size: 50px;
+		letter-spacing: -.2px;
+		margin-bottom: 20px;
+		span {
+			font-weight: 300;
+		}
+	}
+	> p {
+		font-size: 15px;
+		line-height: 28px;
+		letter-spacing: 0;
+		color: $white;
+		font-weight: 600;
+		margin-bottom: 25px;
+	}
+	> span {
+		color: $white;
+		font-size: 15px;
+		font-weight: 600;
+		letter-spacing: 0;
+		display: block;
+		margin-bottom: 20px;
+		i {
+			font-family: $font_1;
+			font-weight: 700;
+		}
+	}
+}
+.ft-scl {
+	display: inline-block;
+	margin-top: 20px;
+}
+.scl-btn {
+	float: left;
+	margin: 0 5px;
+	line-height: 36px;
+	font-size: 9.5px;
+	width: 40px;
+	color: $white;
+	border: 2px solid;
+	&:hover {
+		background-color: transparent;
+	}
+}
+.poptrox-popup {
+	padding: 10px !important;
+}
+.caption {
+	display: none !important;
+}
+ul li {
+	@extend %extend_1;
+}
+ol li {
+	@extend %extend_1;
+}
+.form-wrp fieldset p a:focus {
+	outline: none;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: none;
+}
+.btn:focus {
+	outline: none;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: none;
+}
+.blc-lyr:before {
+	@extend %extend_3;
+	background-color: $black;
+}
+.wht-lyr:before {
+	@extend %extend_3;
+	background-color: $white;
+}
+.drk-blu-lyr:before {
+	@extend %extend_3;
+	background-color: $color_ebony_approx;
+}
+.hg-opc:before {
+	opacity: .95;
+}
+.md-opc:before {
+	opacity: .85;
+}
+.lw-opc:before {
+	opacity: .75;
+}
+.owl-nav > div {
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: all .3s linear;
+}
+.owl-dots > div {
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: all .3s linear;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 50%;
+}

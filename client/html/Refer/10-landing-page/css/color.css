@@ -1,0 +1,56 @@
+/*===== Background Color =====*/ 
+.blue-bg,
+.blue-bg-hover:hover,
+.strt-btns > a.blue-bg,
+.strt-btns > a:hover,
+.vdo-sec-innr > span a:hover,
+.membr-wrp:hover .membr-inf,
+.membr-wrp:before,
+.vw-al > a:hover,
+.owl-dots > div.active,
+.cnt-frm button:hover
+{
+	background-color: #0093fb;
+}
+
+/*===== Text Color =====*/
+.blue-clr,
+.owl-nav > div:hover,
+.acordn-itm > h4.active,
+.nwsltr-frm > button:hover,
+nav ul li:hover > a,
+nav ul li > a:focus
+{
+	color: #009efb;
+}
+
+/*===== Border Color =====*/ 
+.sec-tl-innr > i.tl-tp:before, 
+.sec-tl-innr > i.tl-tp:after
+{
+	border-color: #009efb;
+}
+
+/*===== Border Top Color =====*/ 
+
+{
+	border-top-color: #009efb;
+}
+
+/*===== Border Right Color =====*/ 
+
+{
+	border-right-color: #009efb;
+}
+
+/*===== Border Bottom Color =====*/
+.acordn-itm.activate
+{
+	border-bottom-color: #009efb;
+}
+
+/*===== Border Left Color =====*/ 
+.sec-tl-innr > i.tl-tp
+{
+	border-left-color: #009efb;
+}
