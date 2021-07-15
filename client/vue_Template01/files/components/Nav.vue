@@ -7,7 +7,7 @@
       ></div>
       <div class="container">
         <div class="topbar-one__left">
-          <a href="mailto:needhelp@tripo.com"
+          <a href="mailto:whocat@naver.com"
             ><span class="icon-message"></span>whocat@naver.com</a
           >
           <a href="tel:666-999-0000"
@@ -61,11 +61,11 @@
               <li class="dropdown current">
                 <nuxt-link to="/">Home</nuxt-link>
                 <ul>
-                  <li><nuxt-link to="/">Home 01</nuxt-link></li>
+                  <!-- <li><nuxt-link to="/">Home 01</nuxt-link></li> -->
                   <!-- <li><nuxt-link to="/index2">Home 02</nuxt-link></li> -->
                   <!-- <li><nuxt-link to="/index3">Home 03</nuxt-link></li> -->
                   <!-- <li><nuxt-link to="/index4">Home 04</nuxt-link></li> -->
-                  <li><nuxt-link to="/index5">Home 05</nuxt-link></li>
+                  <!-- <li><nuxt-link to="/index5">Home 05</nuxt-link></li> -->
                   <li class="dropdown">
                     <!-- <a href="#">Header Versions</a> -->
                     <ul>
