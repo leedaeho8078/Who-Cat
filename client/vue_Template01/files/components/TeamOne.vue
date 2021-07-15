@@ -24,7 +24,9 @@
               </div>
               <div class="team_one_deatils">
                 <p>25,000원</p>
-                <h2><a href="/product">누구냥 외장태그(검정)</a></h2>
+                <h2>
+                  <a href="/product">누구냥 <br />외장태그(검정)</a>
+                </h2>
               </div>
             </div>
           </div>
@@ -38,7 +40,9 @@
               </div>
               <div class="team_one_deatils">
                 <p>10,000원</p>
-                <h2><a href="/product">누구냥 냥여권</a></h2>
+                <h2>
+                  <a href="/product">누구냥<br />냥여권</a>
+                </h2>
               </div>
             </div>
           </div>
@@ -52,7 +56,9 @@
               </div>
               <div class="team_one_deatils">
                 <p>13,000원</p>
-                <h2><a href="/product">누구냥 냥냥민증</a></h2>
+                <h2>
+                  <a href="/product">누구냥<br />냥냥민증</a>
+                </h2>
               </div>
             </div>
           </div>
@@ -66,7 +72,9 @@
               </div>
               <div class="team_one_deatils">
                 <p>49,000원</p>
-                <h2><a href="/product">누구냥 럭셔리 패키지</a></h2>
+                <h2>
+                  <a href="/product">누구냥<br />럭셔리 패키지</a>
+                </h2>
               </div>
             </div>
           </div>
