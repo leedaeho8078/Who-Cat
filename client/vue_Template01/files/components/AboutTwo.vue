@@ -104,7 +104,6 @@
             <div class="col-md-12">
               <div
                 class="input-group contact__btn"
-                ;
                 style="align-content:center"
               >
                 <button type="submit" class="thm-btn contact-one__btn">
