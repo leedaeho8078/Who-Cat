@@ -106,7 +106,7 @@
                 <div class="showing-result-shorting">
                   <div class="left">
                     <div class="showing">
-                      <p>Showing 1-9 of 20 Results</p>
+                      <p>Showing 1-9 of 9 Results</p>
                     </div>
                   </div>
                   <div class="right">
