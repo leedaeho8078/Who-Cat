@@ -4,52 +4,133 @@
       <div class="row">
         <div class="col-xl-6 col-lg-6 col-md-6">
           <div class="block-title text-left">
-            <p>About agrikol</p>
-            <h3>We’re Providing The Best Solution</h3>
+            <p>쉽고 빠르게 반려묘를 등록하세요.</p>
+            <h3>반려묘 등록</h3>
             <div class="leaf">
-              <img src="/assets/images/resources/leaf.png" alt="">
+              <img src="/assets/images/resources/leaf.png" alt="" />
             </div>
           </div>
         </div>
         <div class="col-xl-6 col-lg-6 col-md-6">
           <div class="about_two_text">
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-              suffered alteration in some form, by injected humour, or randomised words which don't
-              look even slightly believable. dicam laudem pertinacia ad pri. In brute mediocritatem
-              sit, usu mucius everti no.</p>
+            <p>
+              왜 고양이 비문 등록을 해야 하나요? 사람의 손 지문처럼 반려견마다
+              비문(코 지문)이 모두 다르며 나이가 들어도 변하지 않아요.비문(코
+              지문)이 등록된 프로필을 만들기 때문에 비문(코 지문)을 조회하면
+              등록되어있는 고양이의 프로필을 확인할 수 있어요.
+            </p>
           </div>
         </div>
       </div>
-      <div class="row">
+      <form action="#" class="contact-one__form">
+        <div class="row low-gutters">
+          <div class="col-md-6">
+            <input
+              type="file"
+              class="form-control"
+              accept="image/png,image/jpeg"
+            />
+            <div class="alert alert-secondary" role="alert">
+              <ul>
+                <li>고양이의 얼굴을 등록해주세요.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <input
+              type="file"
+              class="form-control"
+              accept="image/png,image/jpeg"
+            />
+            <div class="alert alert-secondary" role="alert">
+              <ul>
+                <li>고양이의 비문을 등록해주세요.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="input-group">
+              <input type="text" name="name" placeholder="고양이 이름" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="input-group">
+              <input type="text" name="name" placeholder="고양이 성별" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="input-group">
+              <input type="text" name="number" placeholder="고양이 생일" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="input-group">
+              <input type="text" name="subject" placeholder="고양이 품종" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="input-group">
+              <input type="text" name="name" placeholder="보호자 이름" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="input-group">
+              <input type="text" name="name" placeholder="보호자 주소" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="input-group">
+              <input type="text" name="phone" placeholder="보호자 연락처" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="input-group">
+              <input type="text" name="email" placeholder="보호자 이메일" />
+            </div>
+          </div>
+
+          <div class="col-md-12">
+            <div class="input-group">
+              <textarea name="message" placeholder="고양이 특이사항"></textarea>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="input-group contact__btn">
+              <button type="submit" class="thm-btn contact-one__btn">
+                제출하기
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+      <!-- <div class="row">
         <div class="col-xl-5 col-lg-5">
           <div class="about_two_left">
-            <img src="/assets/images/about/about_page_left-img.jpg" alt="">
+            <img src="/assets/images/about/about_page_left-img.jpg" alt="" />
           </div>
         </div>
         <div class="col-xl-5 col-lg-5">
           <div class="about_two_middle">
-            <img src="/assets/images/about/about_page_middle-img.jpg" alt="">
+            <img src="/assets/images/about/about_page_middle-img.jpg" alt="" />
           </div>
         </div>
         <div class="col-xl-2 col-lg-2">
           <div class="about_two-right">
-            <img src="/assets/images/about/about_page_right-img.jpg" alt="">
+            <img src="/assets/images/about/about_page_right-img.jpg" alt="" />
             <div class="about_two_content">
               <h2>We’ve 40 Years Agriculture Experience</h2>
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>
 
 <script>
-    export default {
-        name: "AboutTwo"
-    }
+export default {
+  name: "AboutTwo"
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
