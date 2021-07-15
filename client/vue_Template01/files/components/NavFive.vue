@@ -32,11 +32,11 @@
                       <li class="dropdown current">
                         <nuxt-link to="/">Home</nuxt-link>
                         <ul>
-                          <li><nuxt-link to="/">Home 01</nuxt-link></li>
-                          <li><nuxt-link to="/index2">Home 02</nuxt-link></li>
-                          <li><nuxt-link to="/index3">Home 03</nuxt-link></li>
-                          <li><nuxt-link to="/index4">Home 04</nuxt-link></li>
-                          <li><nuxt-link to="/index5">Home 05</nuxt-link></li>
+                          <li><nuxt-link to="/index">Home 01</nuxt-link></li>
+                          <!-- <li><nuxt-link to="/index2">Home 02</nuxt-link></li> -->
+                          <!-- <li><nuxt-link to="/index3">Home 03</nuxt-link></li> -->
+                          <!-- <li><nuxt-link to="/index4">Home 04</nuxt-link></li> -->
+                          <!-- <li><nuxt-link to="/index5">Home 05</nuxt-link></li> -->
                           <li class="dropdown">
                             <a href="#">Header Versions</a>
                             <ul>
