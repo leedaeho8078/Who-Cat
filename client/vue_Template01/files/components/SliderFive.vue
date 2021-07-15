@@ -99,8 +99,11 @@
                       System
                     </div>
                     <p>
-                      An qualisque constituam cum. Agam unum disputando ius et,
-                      mel id postea voluptua, et vel assum graece feugait.
+                      비문인식 디바이스 구매 없이 스마트폰 카메라로 간편하게
+                      등록하세요! 누구냥에서는 별도의 인식 디바이스 구매 없이
+                      온라인 또는 스마트폰 카메라로 비문을 촬영하여 간단하게
+                      반려묘를 등록할 수 있습니다. 사랑하는 우리 아이들을 위해
+                      반려묘를 꼭 등록해주세요.
                     </p>
                     <div class="link-box">
                       <nuxt-link to="/about" class="thm-btn"
