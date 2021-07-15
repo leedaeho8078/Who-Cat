@@ -1,15 +1,13 @@
 <template>
   <div>
-    <button type="button" class="btn btn-primary">Primary</button>
-    <button type="button" class="btn btn-secondary">Secondary</button>
-    <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-danger">Danger</button>
-    <button type="button" class="btn btn-warning">Warning</button>
-    <button type="button" class="btn btn-info">Info</button>
-    <button type="button" class="btn btn-light">Light</button>
-    <button type="button" class="btn btn-dark">Dark</button>
-
-    <button type="button" class="btn btn-link">Link</button>
+    <b-button variant="outline-primary">Primary</b-button>
+    <b-button variant="outline-secondary">Secondary</b-button>
+    <b-button variant="outline-success">Success</b-button>
+    <b-button variant="outline-danger">Danger</b-button>
+    <b-button variant="outline-warning">Warning</b-button>
+    <b-button variant="outline-info">Info</b-button>
+    <b-button variant="outline-light">Light</b-button>
+    <b-button variant="outline-dark">Dark</b-button>
   </div>
 </template>
 <script>

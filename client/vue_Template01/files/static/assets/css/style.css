@@ -38,6 +38,7 @@
 
 /*font-family: 'Barlow', sans-serif;
 font-family: 'Amatic SC', cursive;*/
+
 @import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
 
 @font-face {
@@ -70,11 +71,16 @@ body {
 button:focus {
   outline: none;
 }
+
+a {
+  text-decoration: none !important;
+}
+
 a:active,
 a:hover,
 a:focus,
 a:visited {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 h1,
