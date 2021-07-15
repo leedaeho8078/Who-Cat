@@ -16,7 +16,7 @@
         </div>
         <div class="col-xl-6 col-lg-6 col-md-6">
           <div class="about_two_text">
-            <p style="font-size:18px; color:#757572">
+            <p style="font-size:17.5px; color:#757572">
               왜 고양이 비문 등록을 해야 하나요? 사람의 손 지문처럼 반려견마다
               비문(코 지문)이 모두 다르며 나이가 들어도 변하지 않아요.비문(코
               지문)이 등록된 프로필을 만들기 때문에 비문(코 지문)을 조회하면
@@ -102,7 +102,11 @@
               </div>
             </div>
             <div class="col-md-12">
-              <div class="input-group contact__btn">
+              <div
+                class="input-group contact__btn"
+                ;
+                style="align-content:center"
+              >
                 <button type="submit" class="thm-btn contact-one__btn">
                   제출하기
                 </button>
