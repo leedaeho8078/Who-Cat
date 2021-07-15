@@ -115,7 +115,7 @@
                         class="dropdown shorting bootstrap-select"
                         style="width: 100%;"
                       >
-                        <select
+                        <!--<select
                           class="selectpicker"
                           data-width="100%"
                           tabindex="-98"
@@ -125,7 +125,7 @@
                           <option>Default Sorting 2</option>
                           <option>Default Sorting 3</option>
                           <option>Default Sorting 4</option>
-                        </select>
+                        </select>-->
                         <div class="dropdown-menu " role="combobox">
                           <div
                             class="inner show"
