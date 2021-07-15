@@ -4,7 +4,7 @@
       <div class="container-box">
         <div class="topbar_three_content clearfix">
           <div class="logo-box-three logo-box-five float-left">
-            <a href="/index5" class="main-nag__logo">
+            <a href="/" class="main-nag__logo">
               <img src="/assets/images/resources/logo.png" alt="" />
             </a>
           </div>
@@ -32,7 +32,7 @@
                       <li class="dropdown current">
                         <nuxt-link to="/">Home</nuxt-link>
                         <ul>
-                          <li><nuxt-link to="/index">Home 01</nuxt-link></li>
+                          <li><nuxt-link to="/">Sweet Home</nuxt-link></li>
                           <!-- <li><nuxt-link to="/index2">Home 02</nuxt-link></li> -->
                           <!-- <li><nuxt-link to="/index3">Home 03</nuxt-link></li> -->
                           <!-- <li><nuxt-link to="/index4">Home 04</nuxt-link></li> -->
