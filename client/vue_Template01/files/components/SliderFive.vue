@@ -27,9 +27,9 @@
                 <div class="col-xl-5 content">
                   <div class="inner">
                     <div class="large-title">
-                      cute &<br />
-                      agriculture<br />
-                      Forming
+                      Cat <br />
+                      Identification<br />
+                      System
                     </div>
 
                     <p>
@@ -38,7 +38,7 @@
                     </p>
                     <div class="link-box">
                       <nuxt-link to="/about" class="thm-btn"
-                        >Discover More</nuxt-link
+                        >등록하기</nuxt-link
                       >
                     </div>
                   </div>
@@ -58,9 +58,9 @@
                 <div class="col-xl-5 content">
                   <div class="inner">
                     <div class="large-title">
-                      organic &<br />
-                      agriculture<br />
-                      Forming
+                      Cat <br />
+                      Identification<br />
+                      System
                     </div>
                     <p>
                       An qualisque constituam cum. Agam unum disputando ius et,
@@ -68,7 +68,7 @@
                     </p>
                     <div class="link-box">
                       <nuxt-link to="/about" class="thm-btn"
-                        >Discover More</nuxt-link
+                        >등록하기</nuxt-link
                       >
                     </div>
                   </div>
@@ -88,9 +88,9 @@
                 <div class="col-xl-5 content">
                   <div class="inner">
                     <div class="large-title">
-                      organic &<br />
-                      agriculture<br />
-                      Forming
+                      Cat <br />
+                      Identification<br />
+                      System
                     </div>
                     <p>
                       An qualisque constituam cum. Agam unum disputando ius et,
@@ -98,7 +98,7 @@
                     </p>
                     <div class="link-box">
                       <nuxt-link to="/about" class="thm-btn"
-                        >Discover More</nuxt-link
+                        >등록하기</nuxt-link
                       >
                     </div>
                   </div>
