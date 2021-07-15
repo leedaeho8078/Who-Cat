@@ -38,9 +38,9 @@
                           <!-- <li><nuxt-link to="/index4">Home 04</nuxt-link></li> -->
                           <!-- <li><nuxt-link to="/index5">Home 05</nuxt-link></li> -->
                           <li class="dropdown">
-                            <a href="#">Header Versions</a>
+                            <!-- <a href="#">Header Versions</a> -->
                             <ul>
-                              <li>
+                              <!-- <li>
                                 <nuxt-link to="/index">Header 01</nuxt-link>
                               </li>
                               <li>
@@ -54,55 +54,59 @@
                               </li>
                               <li>
                                 <nuxt-link to="/index5">Header 05</nuxt-link>
-                              </li>
+                              </li> -->
                             </ul>
                             <!-- /.sub-menu -->
                           </li>
                         </ul>
                         <!-- /.sub-menu -->
                       </li>
+                         </li>
                       <li class="dropdown">
-                        <nuxt-link to="/service">Services</nuxt-link>
+                        <nuxt-link to="/about">등록</nuxt-link>
                         <ul>
-                          <li><nuxt-link to="/service">Services</nuxt-link></li>
                           <li>
-                            <nuxt-link to="/service-detail"
-                              >Services Detail</nuxt-link
+                            <nuxt-link to="/about"
+                              >여기서 고양이를 등록하라옹</nuxt-link
                             >
                           </li>
-                        </ul>
-                        <!-- /.sub-menu -->
-                      </li>
-                      <li class="dropdown">
-                        <nuxt-link to="/projects">Our Projects</nuxt-link>
-                        <ul>
-                          <li>
-                            <nuxt-link to="/projects">Projects</nuxt-link>
-                          </li>
-                          <li>
+                          <!-- <li>
                             <nuxt-link to="/projects_detail"
                               >Projects Detail</nuxt-link
                             >
-                          </li>
+                          </li> -->
                         </ul>
+                      <li class="dropdown">
+                        <nuxt-link to="/service">조회</nuxt-link>
+                        <ul>
+                          <li>
+                            <nuxt-link to="/service">조회하라옹</nuxt-link>
+                          </li>
+                          <!-- <li>
+                            <nuxt-link to="/service-detail"
+                              >Services Detail</nuxt-link
+                            >
+                          </li> -->
+                        </ul>
+                        <!-- /.sub-menu -->
+                   
                         <!-- /.sub-menu -->
                       </li>
                       <li class="dropdown">
-                        <nuxt-link to="#">Shop</nuxt-link>
+                        <nuxt-link to="/product">굿즈</nuxt-link>
                         <ul>
-                          <li><nuxt-link to="/product">Products</nuxt-link></li>
-                          <li>
-                            <nuxt-link to="/product-detail"
-                              >Product Detail</nuxt-link
-                            >
-                          </li>
-                          <li><nuxt-link to="/cart">Cart</nuxt-link></li>
-                          <li>
-                            <nuxt-link to="/checkout">Checkout</nuxt-link>
-                          </li>
+                          <li><nuxt-link to="/product">누구냥 굿즈 팔아요</nuxt-link></li>
+                          <!-- <li> -->
+                            <!-- <nuxt-link to="/product-detail"
+                              >Product Detail</nuxt-link -->
+                          <!-- </li> -->
+                          <!-- <li><nuxt-link to="/cart">Cart</nuxt-link></li> -->
+                          <!-- <li> -->
+                            <!-- <nuxt-link to="/checkout">Checkout</nuxt-link> -->
+                          <!-- </li> -->
                         </ul>
                         <!-- /.sub-menu -->
-                      </li>
+                      <!-- </li>
                       <li class="dropdown">
                         <nuxt-link to="#">Pages</nuxt-link>
                         <ul>
@@ -114,9 +118,9 @@
                           </li>
                           <li><nuxt-link to="/farmers">Farmers</nuxt-link></li>
                           <li><nuxt-link to="/gallery">Gallery</nuxt-link></li>
-                        </ul>
+                        </ul> -->
                         <!-- /.sub-menu -->
-                      </li>
+                      <!-- </li>
                       <li class="dropdown">
                         <nuxt-link to="#">News</nuxt-link>
                         <ul>
@@ -126,11 +130,11 @@
                               >News Details</nuxt-link
                             >
                           </li>
-                        </ul>
+                        </ul> -->
                         <!-- /.sub-menu -->
                       </li>
                       <li>
-                        <nuxt-link to="/contact">Contact</nuxt-link>
+                        <nuxt-link to="/contact">고객센터</nuxt-link>
                       </li>
                     </ul>
                   </div>
