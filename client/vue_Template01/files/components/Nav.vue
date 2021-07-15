@@ -32,7 +32,7 @@
             <a href="#"><i class="fab fa-twitter"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>
             <a href="#"><i class="fab fa-dribbble"></i></a>
-            <button style="padding: 5px 10px; background-color:#eddd5e; border:none; margin:10px; border-radius:5px;">로그인</button>
+            <button style="padding: 5px 10px; background-color:#eddd5e; border:none; margin:10px; border-radius:8px;">로그인</button>
           </div>
         </div>
       </div>
