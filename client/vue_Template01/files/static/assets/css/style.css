@@ -84,7 +84,7 @@ h4,
 h5,
 h6 {
   text-transform: uppercase;
-  font-family: vadr(--heading-font);
+  font-family: "Jua", sans-serif;
 }
 
 .page-wrapper {

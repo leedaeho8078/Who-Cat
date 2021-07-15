@@ -7,7 +7,8 @@
             누구냥이 발급한 당신의 고양이 고유값으로 만든 누구냥 굿즈를
             만나보세요.
           </p>
-          <h3>누구냥 굿즈</h3>
+          <br />
+          <p style="font-size:36pt; color:black">누구냥 굿즈</p>
           <div class="leaf">
             <img src="/assets/images/resources/leaf.png" alt="" />
           </div>
