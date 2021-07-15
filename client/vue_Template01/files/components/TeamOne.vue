@@ -65,11 +65,6 @@
             <div class="team_one_deatils">
               <p>49,000원</p>
               <h2><a href="#">누구냥 럭셔리 패키지</a></h2>
-              <div class="team_one_social">
-                <a href="#"><i class="fab fa-facebook-square"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-              </div>
             </div>
           </div>
         </div>
