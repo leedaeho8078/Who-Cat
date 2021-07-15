@@ -4,7 +4,8 @@
       <div class="service_four_top"></div>
       <div class="block-title text-center">
         <p>쉽고 빠르게 고양이를 조회하세요.</p>
-        <h3>반려묘 조회</h3>
+        <br />
+        <p style="font-size:40px; color:#44433D">반려묘 조회</p>
         <div class="leaf">
           <img src="/assets/images/resources/leaf.png" alt="" />
         </div>
@@ -25,7 +26,11 @@
           </div>
           <div class="col-md-6">
             <div class="input-group">
-              <input type="text" name="number" placeholder="고양이 고유ID" />
+              <input
+                type="text"
+                name="number"
+                placeholder="고양이 고유ID를 입력해주세요."
+              />
             </div>
           </div>
 
