@@ -6,70 +6,86 @@
           <div class="cart_table_box">
             <table class="cart_table">
               <thead class="cart_table_head">
-              <tr>
-                <th>Item</th>
-                <th></th>
-                <th>Price</th>
-                <th>Quantity</th>
-                <th>Total</th>
-                <th>Remove</th>
-              </tr>
+                <tr>
+                  <th>Item</th>
+                  <th></th>
+                  <th>Price</th>
+                  <th>Quantity</th>
+                  <th>Total</th>
+                  <th>Remove</th>
+                </tr>
               </thead>
               <tbody>
-              <tr>
-                <td colspan="2">
-                  <div class="colum_box">
-                    <div class="prod_thum">
-                      <a href="#"><img src="/assets/images/shop/cart_product_img-1.jpg"
-                                       alt=""></a>
+                <tr>
+                  <td colspan="2">
+                    <div class="colum_box">
+                      <div class="prod_thum">
+                        <a href="#"
+                          ><img
+                            src="/assets/images/shop/cart_product_img-1.jpg"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="title">
+                        <h3 class="prod-title">Basket full of vegetables</h3>
+                      </div>
                     </div>
-                    <div class="title">
-                      <h3 class="prod-title">Basket full of vegetables</h3>
+                  </td>
+                  <td class="pro_price">$9.99</td>
+                  <td class="pro_qty">
+                    <div class="product-quantity-box">
+                      <div class="input-box">
+                        <input
+                          class="quantity-spinner"
+                          type="number"
+                          value="1"
+                          name="quantity"
+                        />
+                      </div>
                     </div>
-                  </div>
-                </td>
-                <td class="pro_price">$9.99</td>
-                <td class="pro_qty">
-                  <div class="product-quantity-box">
-                    <div class="input-box">
-                      <input class="quantity-spinner" type="number" value="1"
-                             name="quantity">
+                  </td>
+                  <td class="pro_sub_total">$9.99</td>
+                  <td>
+                    <div class="pro_remove">
+                      <i class="fas fa-times"></i>
                     </div>
-                  </div>
-                </td>
-                <td class="pro_sub_total">$9.99</td>
-                <td>
-                  <div class="pro_remove">
-                    <i class="fas fa-times"></i>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td colspan="2">
-                  <div class="colum_box">
-                    <div class="prod_thum">
-                      <a href="#"><img src="/assets/images/shop/cart_product_img-2.jpg" alt=""></a>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <div class="colum_box">
+                      <div class="prod_thum">
+                        <a href="#"
+                          ><img
+                            src="/assets/images/shop/cart_product_img-2.jpg"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="title">
+                        <h3 class="prod-title">Oranges</h3>
+                      </div>
                     </div>
-                    <div class="title">
-                      <h3 class="prod-title">Oranges</h3>
+                  </td>
+                  <td class="pro_price">$9.99</td>
+                  <td class="pro_qty">
+                    <div class="product-quantity-box">
+                      <div class="input-box">
+                        <input
+                          class="quantity-spinner"
+                          type="number"
+                          value="1"
+                          name="quantity"
+                        />
+                      </div>
                     </div>
-                  </div>
-                </td>
-                <td class="pro_price">$9.99</td>
-                <td class="pro_qty">
-                  <div class="product-quantity-box">
-                    <div class="input-box">
-                      <input class="quantity-spinner" type="number" value="1" name="quantity">
+                  </td>
+                  <td class="pro_sub_total">$9.99</td>
+                  <td>
+                    <div class="pro_remove">
+                      <i class="fas fa-times"></i>
                     </div>
-                  </div>
-                </td>
-                <td class="pro_sub_total">$9.99</td>
-                <td>
-                  <div class="pro_remove">
-                    <i class="fas fa-times"></i>
-                  </div>
-                </td>
-              </tr>
+                  </td>
+                </tr>
               </tbody>
             </table>
           </div>
@@ -79,7 +95,12 @@
         <div class="col-xl-6">
           <div class="apply_coupon">
             <div class="apply_coupon_input_box">
-              <input type="text" name="coupon-code" value="" placeholder="Enter Coupon Code">
+              <input
+                type="text"
+                name="coupon-code"
+                value=""
+                placeholder="Enter Coupon Code"
+              />
             </div>
             <div class="apply-coupon-button">
               <button class="thm-btn" type="submit">Apply Coupon</button>
@@ -107,11 +128,9 @@
 </template>
 
 <script>
-    export default {
-        name: "Cart"
-    }
+export default {
+  name: "Cart"
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
