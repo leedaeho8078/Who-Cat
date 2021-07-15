@@ -13,7 +13,7 @@
             </div>
             <div
               class="faq_one_image"
-              style="background-image: url(/assets/images/resources/faq_one_img-1.jpg)"
+              style="background-image: url(/assets/images/main-slider/banner-five-bg.jpg)"
             >
               <div class="phone_number">
                 <p>
