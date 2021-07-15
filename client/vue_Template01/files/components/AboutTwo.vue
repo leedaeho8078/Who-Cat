@@ -63,7 +63,12 @@
             </div>
             <div class="col-md-6">
               <div class="input-group">
-                <input type="text" name="name" placeholder="고양이 성별" />
+                <label><input type="radio" value="desexing" />중성화완료</label>
+                <label><input type="radio" value="female" />암컷</label>
+                <label><input type="radio" value="male" />수컷</label>
+
+                <!-- <div class="input-group">
+                <input type="text" name="name" placeholder="고양이 성별" /> -->
               </div>
             </div>
             <div class="col-md-6">
