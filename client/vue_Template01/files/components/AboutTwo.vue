@@ -54,7 +54,11 @@
             </div>
             <div class="col-md-6">
               <div class="input-group">
-                <input type="text" name="name" placeholder="고양이 이름" />
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="고양이 이름을 등록해주세요."
+                />
               </div>
             </div>
             <div class="col-md-6">
@@ -64,32 +68,56 @@
             </div>
             <div class="col-md-6">
               <div class="input-group">
-                <input type="text" name="number" placeholder="고양이 생일" />
+                <input
+                  type="text"
+                  name="number"
+                  placeholder="고양이 생일을 등록해주세요."
+                />
               </div>
             </div>
             <div class="col-md-6">
               <div class="input-group">
-                <input type="text" name="subject" placeholder="고양이 품종" />
+                <input
+                  type="text"
+                  name="subject"
+                  placeholder="고양이 품종을 등록해주세요."
+                />
               </div>
             </div>
             <div class="col-md-6">
               <div class="input-group">
-                <input type="text" name="name" placeholder="보호자 이름" />
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="보호자 이름을 등록해주세요."
+                />
               </div>
             </div>
             <div class="col-md-6">
               <div class="input-group">
-                <input type="text" name="name" placeholder="보호자 주소" />
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="보호자 주소을 등록해주세요."
+                />
               </div>
             </div>
             <div class="col-md-6">
               <div class="input-group">
-                <input type="text" name="phone" placeholder="보호자 연락처" />
+                <input
+                  type="text"
+                  name="phone"
+                  placeholder="보호자 연락처를 등록해주세요."
+                />
               </div>
             </div>
             <div class="col-md-6">
               <div class="input-group">
-                <input type="text" name="email" placeholder="보호자 이메일" />
+                <input
+                  type="text"
+                  name="email"
+                  placeholder="보호자 이메일을 등록해주세요."
+                />
               </div>
             </div>
 
@@ -97,7 +125,7 @@
               <div class="input-group">
                 <textarea
                   name="message"
-                  placeholder="고양이 특이사항"
+                  placeholder="고양이 특이사항을 등록해주세요."
                 ></textarea>
               </div>
             </div>
