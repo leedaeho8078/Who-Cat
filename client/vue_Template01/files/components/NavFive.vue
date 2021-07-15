@@ -32,7 +32,7 @@
                       <li class="dropdown current">
                         <nuxt-link to="/">Home</nuxt-link>
                         <ul>
-                          <li><nuxt-link to="/">Sweet Home</nuxt-link></li>
+                          <li><nuxt-link to="/">Sweet Home ❤️</nuxt-link></li>
                           <!-- <li><nuxt-link to="/index2">Home 02</nuxt-link></li> -->
                           <!-- <li><nuxt-link to="/index3">Home 03</nuxt-link></li> -->
                           <!-- <li><nuxt-link to="/index4">Home 04</nuxt-link></li> -->
@@ -67,7 +67,7 @@
                         <ul>
                           <li>
                             <nuxt-link to="/about"
-                              >여기서 고양이를 등록하라옹</nuxt-link
+                              >여기서 고양이를 등록하라옹 🐱</nuxt-link
                             >
                           </li>
                           <!-- <li>
@@ -80,7 +80,7 @@
                         <nuxt-link to="/service">조회</nuxt-link>
                         <ul>
                           <li>
-                            <nuxt-link to="/service">조회하라옹</nuxt-link>
+                            <nuxt-link to="/service">조회하라옹 🌸</nuxt-link>
                           </li>
                           <!-- <li>
                             <nuxt-link to="/service-detail"
@@ -95,7 +95,7 @@
                       <li class="dropdown">
                         <nuxt-link to="/product">굿즈</nuxt-link>
                         <ul>
-                          <li><nuxt-link to="/product">누구냥 굿즈 팔아요</nuxt-link></li>
+                          <li><nuxt-link to="/product">누구냥 굿즈 팔아요 🎁</nuxt-link></li>
                           <!-- <li> -->
                             <!-- <nuxt-link to="/product-detail"
                               >Product Detail</nuxt-link -->
