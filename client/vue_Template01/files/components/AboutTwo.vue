@@ -22,87 +22,92 @@
           </div>
         </div>
       </div>
-      <form action="#" class="contact-one__form">
-        <div class="row low-gutters">
-          <div class="col-md-6">
-            <input
-              type="file"
-              class="form-control"
-              accept="image/png,image/jpeg"
-            />
-            <div class="alert alert-secondary" role="alert">
-              <ul>
-                <li>고양이의 얼굴을 등록해주세요.</li>
-              </ul>
+      <div class="contact-one__form__wrap">
+        <form action="#" class="contact-one__form">
+          <div class="row low-gutters">
+            <div class="col-md-6">
+              <input
+                type="file"
+                class="form-control"
+                accept="image/png,image/jpeg"
+              />
+              <div class="alert alert-secondary" role="alert">
+                <ul>
+                  <li>고양이의 얼굴을 등록해주세요.</li>
+                </ul>
+              </div>
             </div>
-          </div>
-          <div class="col-md-6">
-            <input
-              type="file"
-              class="form-control"
-              accept="image/png,image/jpeg"
-            />
-            <div class="alert alert-secondary" role="alert">
-              <ul>
-                <li>고양이의 비문을 등록해주세요.</li>
-              </ul>
+            <div class="col-md-6">
+              <input
+                type="file"
+                class="form-control"
+                accept="image/png,image/jpeg"
+              />
+              <div class="alert alert-secondary" role="alert">
+                <ul>
+                  <li>고양이의 비문을 등록해주세요.</li>
+                </ul>
+              </div>
             </div>
-          </div>
-          <div class="col-md-6">
-            <div class="input-group">
-              <input type="text" name="name" placeholder="고양이 이름" />
+            <div class="col-md-6">
+              <div class="input-group">
+                <input type="text" name="name" placeholder="고양이 이름" />
+              </div>
             </div>
-          </div>
-          <div class="col-md-6">
-            <div class="input-group">
-              <input type="text" name="name" placeholder="고양이 성별" />
+            <div class="col-md-6">
+              <div class="input-group">
+                <input type="text" name="name" placeholder="고양이 성별" />
+              </div>
             </div>
-          </div>
-          <div class="col-md-6">
-            <div class="input-group">
-              <input type="text" name="number" placeholder="고양이 생일" />
+            <div class="col-md-6">
+              <div class="input-group">
+                <input type="text" name="number" placeholder="고양이 생일" />
+              </div>
             </div>
-          </div>
-          <div class="col-md-6">
-            <div class="input-group">
-              <input type="text" name="subject" placeholder="고양이 품종" />
+            <div class="col-md-6">
+              <div class="input-group">
+                <input type="text" name="subject" placeholder="고양이 품종" />
+              </div>
             </div>
-          </div>
-          <div class="col-md-6">
-            <div class="input-group">
-              <input type="text" name="name" placeholder="보호자 이름" />
+            <div class="col-md-6">
+              <div class="input-group">
+                <input type="text" name="name" placeholder="보호자 이름" />
+              </div>
             </div>
-          </div>
-          <div class="col-md-6">
-            <div class="input-group">
-              <input type="text" name="name" placeholder="보호자 주소" />
+            <div class="col-md-6">
+              <div class="input-group">
+                <input type="text" name="name" placeholder="보호자 주소" />
+              </div>
             </div>
-          </div>
-          <div class="col-md-6">
-            <div class="input-group">
-              <input type="text" name="phone" placeholder="보호자 연락처" />
+            <div class="col-md-6">
+              <div class="input-group">
+                <input type="text" name="phone" placeholder="보호자 연락처" />
+              </div>
             </div>
-          </div>
-          <div class="col-md-6">
-            <div class="input-group">
-              <input type="text" name="email" placeholder="보호자 이메일" />
+            <div class="col-md-6">
+              <div class="input-group">
+                <input type="text" name="email" placeholder="보호자 이메일" />
+              </div>
             </div>
-          </div>
 
-          <div class="col-md-12">
-            <div class="input-group">
-              <textarea name="message" placeholder="고양이 특이사항"></textarea>
+            <div class="col-md-12">
+              <div class="input-group">
+                <textarea
+                  name="message"
+                  placeholder="고양이 특이사항"
+                ></textarea>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="input-group contact__btn">
+                <button type="submit" class="thm-btn contact-one__btn">
+                  제출하기
+                </button>
+              </div>
             </div>
           </div>
-          <div class="col-md-12">
-            <div class="input-group contact__btn">
-              <button type="submit" class="thm-btn contact-one__btn">
-                제출하기
-              </button>
-            </div>
-          </div>
-        </div>
-      </form>
+        </form>
+      </div>
       <!-- <div class="row">
         <div class="col-xl-5 col-lg-5">
           <div class="about_two_left">
