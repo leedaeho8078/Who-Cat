@@ -1,52 +1,54 @@
 <template>
   <div>
-    <NavFive />
-    <SliderFive />
+    <Nav />
+    <Slider />
+    <AboutOne />
+    <ServiceOne />
     <BrandOne />
-    <ServiceTwo />
-    <TrustedOne />
-    <TestimonialFour />
-    <TeamOne />
-    <TwoBoxes />
-    <HealthyFood />
+    <FeaturedOne />
+    <VideoOne />
+    <TestimonialOne />
+    <RecentProject />
+    <Benefits />
+    <ProductOne />
     <BlogOne />
-    <ContactOne />
+    <CallToActionOne />
     <Footer />
   </div>
 </template>
 
 <script>
-  import NavFive from "../components/NavFive";
-  import SliderFive from "../components/SliderFive";
+  import Slider from "../components/Slider";
+  import Nav from "../components/Nav";
+  import AboutOne from "../components/AboutOne";
+  import ServiceOne from "../components/ServiceOne";
   import BrandOne from "../components/BrandOne";
-  import ServiceTwo from "../components/ServiceTwo";
-  import TrustedOne from "../components/TrustedOne";
-  import TestimonialFour from "../components/TestimonialFour";
-  import TeamOne from "../components/TeamOne";
-  import TwoBoxes from "../components/TwoBoxes";
-  import HealthyFood from "../components/HealthyFood";
+  import FeaturedOne from "../components/FeaturedOne";
+  import VideoOne from "../components/VideoOne";
+  import TestimonialOne from "../components/TestimonialOne";
+  import RecentProject from "../components/RecentProject";
+  import Benefits from "../components/Benefits";
+  import ProductOne from "../components/ProductOne";
   import BlogOne from "../components/BlogOne";
-  import ContactOne from "../components/ContactOne";
+  import CallToActionOne from "../components/CallToActionOne";
   import Footer from "../components/Footer";
   export default {
     components: {
       Footer,
-      ContactOne,
+      CallToActionOne,
       BlogOne,
-      HealthyFood,
-      TwoBoxes,
-      TeamOne,
-      TestimonialFour,
-      TrustedOne,
-      ServiceTwo,
+      ProductOne,
+      Benefits,
+      RecentProject,
+      TestimonialOne,
+      VideoOne,
+      FeaturedOne,
       BrandOne,
-      SliderFive,
-      NavFive
-    },
-    head(){
-      return {
-        title: "Agrikol  | Home 5"
-      }
+      ServiceOne,
+      AboutOne,
+      Slider,
+      Nav
+
     }
   }
 </script>
