@@ -33,8 +33,10 @@
                     </div>
 
                     <p>
-                      An qualisque constituam cum. Agam unum disputando ius et,
-                      mel id postea voluptua, et vel assum graece feugait.
+                      고양이 비문이 무엇인가요? 사람에게 지문이 있듯이 고양이
+                      코주름도 모두 다르답니다. 따라서 지문처럼 객체를 식별할 때
+                      사용합니다. 당신의 바른 반려생활을 위해,반려묘의 비문을
+                      등록해주세요.
                     </p>
                     <div class="link-box">
                       <nuxt-link to="/about" class="thm-btn"
@@ -63,8 +65,12 @@
                       System
                     </div>
                     <p>
-                      An qualisque constituam cum. Agam unum disputando ius et,
-                      mel id postea voluptua, et vel assum graece feugait.
+                      반려묘를 등록하면, 반려묘 유실시 빠른 시일 내에 찾는 것을
+                      도울 수 있습니다. 등록 후 '외장형 전자태그'를 소장할 수
+                      있습니다. 외장형 전자태그란, 목걸이형태의 팬던트 내부에
+                      RFID칩을 삽입하여 외장칩만으로 등록이 가능하며 체내
+                      마이크로칩 삽입 시술을 하지 않아서 내 반려묘가 아파하지
+                      않아요.
                     </p>
                     <div class="link-box">
                       <nuxt-link to="/about" class="thm-btn"
