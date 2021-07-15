@@ -103,7 +103,7 @@
           </div>
         </div>
       </form>
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-xl-5 col-lg-5">
           <div class="about_two_left">
             <img src="/assets/images/about/about_page_left-img.jpg" alt="" />
@@ -122,7 +122,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>
