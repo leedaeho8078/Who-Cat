@@ -28,7 +28,7 @@
               data-wow-duration="1200ms"
               style="visibility: visible; animation-duration: 1200ms; animation-delay: 0.3s; animation-name: fadeInUp;"
             >
-              <div class="categories-box">
+              <!-- <div class="categories-box">
                 <div class="title">
                   <h3>Categories</h3>
                 </div>
@@ -39,7 +39,7 @@
                   <li><a href="#">Tomatos</a></li>
                   <li><a href="#">Oranges</a></li>
                 </ul>
-              </div>
+              </div> -->
             </div>
             <!--End sidebar categories Box-->
             <!--Start single sidebar-->
@@ -58,7 +58,7 @@
                     <div class="product_item">
                       <div class="img-box">
                         <img
-                          src="/assets/images/shop/top-product-1.jpg"
+                          src="https://www.idpet.co.kr/upload/product/75895_%EC%99%B8%EC%9E%A5%ED%83%9C%EA%B7%B8%ED%8F%AC%EC%9E%A5_%EB%94%A5%EA%B7%B8%EB%A6%B0_%EA%B8%80%EC%9E%90.jpg"
                           alt="Awesome Image"
                         />
                         <div class="overlay-content">
@@ -68,8 +68,8 @@
                         </div>
                       </div>
                       <div class="title-box">
-                        <h4><a href="#">Wheat Bag</a></h4>
-                        <div class="value">$9.99</div>
+                        <h4><a href="#">누구냥 외장태그(검정)</a></h4>
+                        <div class="value">25,000원</div>
                       </div>
                     </div>
                   </li>
@@ -77,7 +77,7 @@
                     <div class="product_item">
                       <div class="img-box">
                         <img
-                          src="/assets/images/shop/top-product-2.jpg"
+                          src="https://www.idpet.co.kr/upload/product/KakaoTalk_20210611_163025708_01.png"
                           alt="Awesome Image"
                         />
                         <div class="overlay-content">
@@ -87,8 +87,8 @@
                         </div>
                       </div>
                       <div class="title-box">
-                        <h4><a href="#">Pinepale</a></h4>
-                        <div class="value">$9.99</div>
+                        <h4><a href="#">누구냥백+파우치</a></h4>
+                        <div class="value">20,000원</div>
                       </div>
                     </div>
                   </li>
