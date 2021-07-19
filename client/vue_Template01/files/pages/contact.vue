@@ -1,10 +1,12 @@
 <template>
   <div>
     <Nav />
-    <PageHeader title="Contact" />
-    <Location />
-    <ContactTwo />
-    <GMap />
+    <PageHeader title="고객센터" />
+    <FaqOne />
+
+    <!-- <Location /> -->
+    <!-- <ContactTwo /> -->
+    <!-- <GMap /> -->
     <Footer />
   </div>
 </template>
@@ -16,6 +18,8 @@ import Footer from "../components/Footer";
 import Location from "../components/Location";
 import ContactTwo from "../components/ContactTwo";
 import GMap from "../components/GMap";
+import FaqOne from "../components/FaqOne";
+
 export default {
   components: {
     GMap,
@@ -23,6 +27,8 @@ export default {
     Location,
     Footer,
     PageHeader,
+    FaqOne,
+
     Nav
   },
   head() {

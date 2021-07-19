@@ -30,9 +30,9 @@
             <div class="accrodion-grp" data-grp-name="faq-one-accrodion">
               <div class="accordion-container-one">
                 <div class="ac">
-                  <h2 class="ac-q accordion__title-text" tabIndex="0">
+                  <p class="ac-q accordion__title-text" tabIndex="0">
                     배송은 언제 되나요?
-                  </h2>
+                  </p>
                   <div class="ac-a accordion__content">
                     <p class="accordion__content-desc">
                       반려동물등록과 함께 구매하신 외장칩, 패키지 상품은
@@ -44,9 +44,9 @@
                 </div>
 
                 <div class="ac accordion__content">
-                  <h2 class="ac-q accordion__title-text" tabIndex="0">
+                  <p class="ac-q accordion__title-text" tabIndex="0">
                     취소는 어떻게 하나요?
-                  </h2>
+                  </p>
                   <div class="ac-a">
                     <p class="accordion__content-desc">
                       취소를 원하신다면 이메일로 메일 부탁드립니다.
@@ -55,13 +55,13 @@
                 </div>
 
                 <div class="ac">
-                  <h2 class="ac-q accordion__title-text" tabIndex="0">
+                  <p class="ac-q accordion__title-text" tabIndex="0">
                     어느 지역에서나 고양이 등록이 가능한가요?
-                  </h2>
+                  </p>
                   <div class="ac-a accordion__content">
                     <p class="accordion__content-desc">
                       네. 전국 어디서든 동물등록이 가능하며, 제출완료 직후
-                      아이디펫[반려묘 등록조회서비스]에서 동물등록번호 확인이
+                      누구냥[반려묘 등록조회서비스]에서 동물등록번호 확인이
                       가능합니다.
                     </p>
                   </div>
