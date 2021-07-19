@@ -33,7 +33,7 @@ export default {
   },
   head() {
     return {
-      title: "Agrikol  | Contact"
+      title: "whocat|고객센터"
     };
   }
 };

@@ -21,7 +21,7 @@ export default {
   },
   head() {
     return {
-      title: "Agrikol  | Products"
+      title: "whocat|goods"
     };
   }
 };

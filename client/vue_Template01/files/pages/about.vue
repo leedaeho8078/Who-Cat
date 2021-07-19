@@ -39,7 +39,7 @@ export default {
   },
   head() {
     return {
-      title: "Agrikol  | About"
+      title: "whocat|등록"
     };
   }
 };

@@ -34,7 +34,7 @@ export default {
   },
   head() {
     return {
-      title: "Agrikol  | Services"
+      title: "whocat|조회"
     };
   }
 };
