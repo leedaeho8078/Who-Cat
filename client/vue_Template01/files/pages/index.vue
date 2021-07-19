@@ -45,7 +45,7 @@ export default {
   },
   head() {
     return {
-      title: "Agrikol  | Home 5"
+      title: "whocat|Home 1"
     };
   }
 };
