@@ -1,10 +1,10 @@
 <template>
   <div>
     <Nav />
-    <PageHeader title="Services" />
+    <PageHeader title="조회" />
     <ServicePage />
-    <ServiceOne />
-    <BrandOne />
+    <!-- <ServiceOne /> -->
+    <!-- <BrandOne /> -->
     <!-- <FaqOne /> -->
     <!-- <CallToActionThree /> -->
     <Footer />
