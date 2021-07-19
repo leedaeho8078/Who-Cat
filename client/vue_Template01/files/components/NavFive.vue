@@ -63,10 +63,10 @@
                       </li>
                          </li>
                       <li class="dropdown">
-                        <nuxt-link to="/about">등록</nuxt-link>
+                        <nuxt-link to="/loginpage">등록</nuxt-link>
                         <ul>
                           <li>
-                            <nuxt-link to="/about"
+                            <nuxt-link to="/loginpage"
                               >여기서 고양이를 등록하라옹 🐱</nuxt-link
                             >
                           </li>
@@ -148,12 +148,13 @@
               <a href="#"><i class="fab fa-twitter"></i></a>
               <a href="#"><i class="fab fa-instagram"></i></a>
               <a href="#"><i class="fab fa-dribbble"></i></a>
-              <button
-                style="padding: 5px 10px; background-color:#eddd5e; border:none; margin:10px; border-radius:8px;"
-              >
-                로그인
-              </button>
+              
+              <a href="/loginpage">
+            <button style="padding: 8px 5px; background-color:#eddd5e; border:none; margin:0px; border-radius:8px;">  로그인  </button>
+            </a>
             </div>
+            
+            
           </div>
         </div>
       </div>
