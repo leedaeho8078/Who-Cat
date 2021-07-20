@@ -6,11 +6,21 @@
         <div class="col-md-7 col-sm-6 col-xs-6 login-form">
           <form>
             <div class="form-group">
+              <input class="form-control" placeholder="이름" type="text" />
+            </div>
+            <div class="form-group">
               <input class="form-control" placeholder="아이디" type="text" />
             </div>
             <div class="form-group">
-              <input class="form-control" placeholder="비밀번호" type="text" />
+              <input class="form-control" placeholder="주소" type="text" />
             </div>
+            <div class="form-group">
+              <input class="form-control" placeholder="전화번호" type="text" />
+            </div>
+            <div class="form-group">
+              <input class="form-control" placeholder="이메일" type="text" />
+            </div>
+            
 
             <nuxt-link to="/about"> <button style="padding: 5px 10px; background-color:#eddd5e; border:none; margin:10px; border-radius:8px;">로그인</button></nuxt-link>
 

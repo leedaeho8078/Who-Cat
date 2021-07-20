@@ -152,7 +152,9 @@
               <a href="/loginpage">
             <button style="padding: 8px 5px; background-color:#eddd5e; border:none; margin:0px; border-radius:8px;">  로그인  </button>
             </a>
-            <button style="padding: 8px 5px; background-color:#50CB93; border:none; margin:0px; border-radius:8px;">회원가입</button>
+            <a href="/signinpage">
+            <button style="padding: 5px 10px; background-color:#50CB93; border:none; margin:10px; border-radius:8px;">회원가입</button>
+            </a>
             </div>
             
             
