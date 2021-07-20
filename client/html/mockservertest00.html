@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+      const url =
+        "https://04ba100f-75cc-45eb-8029-b110c5cefb95.mock.pstmn.io/whoCat";
+      var data = axios.get(url);
+      console.log(data);
+
+      function getData() {
+        return new Promise(function(resolve, reject) {
+          axios.get(url).then(function(response) {
+            resolve(response.data);
+          });
+        });
+      }
+    </script>
+  </body>
+</html>

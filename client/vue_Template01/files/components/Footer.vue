@@ -19,7 +19,9 @@
                 <h3>About</h3>
               </div>
               <div class="footer-widget_about_text">
-                <p>당신의 바른 반려생활 누구냥이 응원합니다.</p>
+                <p>
+                  당신의 바른 반려생활 누구냥이 응원합니다.
+                </p>
               </div>
               <form>
                 <div class="footer_input-box">
