@@ -41,12 +41,15 @@
                 type="submit"
                 class="thm-btn contact-one__btn"
                 @click="getDetail()"
+                style="margin-left:450px"
               >
                 조회하기
               </button>
             </div>
           </div>
         </div>
+
+        <br />
 
         <div>
           <table class="table table-dark">
