@@ -38,7 +38,7 @@ app.use(
 const server = app.listen(3001, () => {
   var dir = __dirname + "/uploads";
   if (!fs.existsSync(dir)) fs.mkdirSync(dir);
-  console.log("Server stared. port 3000.");
+  console.log("Server stared. port 3001.");
 });
 
 app.use("/static", express.static(__dirname + "/uploads"));
