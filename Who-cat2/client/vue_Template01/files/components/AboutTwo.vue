@@ -54,7 +54,7 @@
             </div>
             <div class="col-md-6">
               <div class="input-group">
-                <input type="text" name="name" placeholder="고양이 이름을 입력해주세요." />
+                <input type="text" name="name" placeholder="고양이 이름을 입력해주세요." v-model="catName" />
               </div>
             </div>
             <div class="col-md-6">
@@ -62,9 +62,9 @@
                 class="input-group"
                 style="color:black; background-color:#eceeef; border-radius: 5px; height:80px; padding:27px;"
               >
-                <label><input type="radio" value="desexing" name="gender" />중성화완료</label>               
-                  <label><input type="radio" value="female" name="gender"/>암컷</label>
-                  <label><input type="radio" value="male" name="gender"/>수컷</label>
+                <label><input type="radio" value="0" name="gender" v-model="catGender"/>중성화완료</label>               
+                  <label><input type="radio" value="1" name="gender" v-model="catGender"/>암컷</label>
+                  <label><input type="radio" value="2" name="gender" v-model="catGender"/>수컷</label>
 
                   <!-- <div class="input-group">
                 <input type="text" name="name" placeholder="고양이 성별" /> -->
@@ -73,40 +73,40 @@
             </div>
             <div class="col-md-6">
               <div class="input-group">
-                <input type="date" name="number" placeholder="고양이 생일"/>
+                <input type="text" name="number" placeholder="고양이 생일" v-model.number="catBirth"/>
               </div>
             </div>
             <div class="col-md-6">
               <div class="input-group">
-                <input type="text" name="subject" placeholder="고양이 품종을 입력해주세요." />
+                <input type="text" name="subject" placeholder="고양이 품종을 입력해주세요." v-model="catSpecies" />
               </div>
             </div>
-            <div class="col-md-6">
+            <!-- <div class="col-md-6">
               <div class="input-group">
                 <input type="text" name="name" placeholder="보호자 이름을 입력해주세요." v-model="parentsName" />
               </div>
-            </div>
-            <div class="col-md-6">
+            </div> -->
+            <!-- <div class="col-md-6">
               <div class="input-group">
                 <input type="text" name="name" placeholder="보호자 주소을 입력해주세요." v-model="parentsAddress"/>
               </div>
-            </div>
-            <div class="col-md-6">
+            </div> -->
+            <!-- <div class="col-md-6">
               <div class="input-group">
                 <input type="text" name="phone" placeholder="보호자 연락처를 입력해주세요." v-model="parentsContact" />
               </div>
-            </div>
-            <div class="col-md-6">
+            </div> -->
+            <!-- <div class="col-md-6">
               <div class="input-group">
                 <input type="text" name="email" placeholder="보호자 이메일을 입력해주세요." v-model="parentsEmail"/>
               </div>
-            </div>
+            </div> -->
 
             <div class="col-md-12">
               <div class="input-group">
                 <textarea
                   name="message"
-                  placeholder="고양이 특이사항을 입력해주세요."
+                  placeholder="고양이 특이사항을 입력해주세요." v-model="ps"
                 ></textarea>
               </div>
             </div>
@@ -115,7 +115,7 @@
                 class="input-group contact__btn"
                 style="align-content:center"
               >
-                <button type="submit" class="thm-btn contact-one__btn" @click="createPerson()">
+                <button type="submit" class="thm-btn contact-one__btn" @click="createCat()">
                   제출하기
                 </button>
               </div>
@@ -154,19 +154,18 @@ export default {
   data(){
     return {
       list :[],
-    parentsName:"",
-    parentsAddress:"",
-    parentsContact:"",
-    parentsEmail:"",
-
-
+      catName:"",
+      catGender:"",
+      catBirth:"",
+      catSpecies:"",
+      ps:"",
     };
 
   },
   setup(){},
   created(){},
   mounted(){
-    this.getList();
+    // this.getList();
   },
   unmounted(){},
   methods:{
@@ -174,16 +173,15 @@ export default {
       this.list = await this.$api("/api/getList","get",{});
       console.log(this.list);
     },
-    async createPerson(){
-      const r = await this.$api("/api/createPerson","post",{
+    async createCat(){
+      const r = await this.$api("/api/createCat","post",{
         param : [
           {
-           parentsName: this.parentsName,
-           parentsAddress : this.parentsAddress,
-           parentsContact : this.parentsContact,
-           parentsEmail  : this.parentsEmail,
-
-
+          catName : this.catName,
+           catGender : this.catGender,
+           catBirth : this.catBirth,
+           catSpecies : this.catSpecies,
+           ps : this.ps,
           },
    
         ],

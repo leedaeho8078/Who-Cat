@@ -147,7 +147,7 @@ export default {
   },
 
   mounted() {
-    // this.getList();
+    this.getDetail();
   },
   methods: {
     async getDetail() {
@@ -159,21 +159,21 @@ export default {
         this.cat = cat[0];
         console.log(this.cat);
       }
-    },
-    async getList() {
-      this.list = await this.$api("/api/catList", "post", {});
-      // if (this.list.catId === this.number) {
-      // for (let cat of this.list) {
-      // if (cat.catId === this.number) {
-      for (let idx in this.list) {
-        if (this.list[idx].catId === this.number) {
-          console.log(this.list);
-        }
-      }
-      // }
-      // }
-      // }
     }
+    // async getList() {
+    //   this.list = await this.$api("/api/catList", "post", {});
+    //   // if (this.list.catId === this.number) {
+    //   // for (let cat of this.list) {
+    //   // if (cat.catId === this.number) {
+    //   for (let idx in this.list) {
+    //     if (this.list[idx].catId === this.number) {
+    //       console.log(this.list);
+    //     }
+    //   }
+    //   // }
+    //   // }
+    //   // }
+    // }
   }
 };
 </script>

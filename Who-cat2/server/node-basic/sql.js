@@ -17,6 +17,9 @@ module.exports = {
   catDetail: {
     query: "select * from cat where catId = ?",
   },
+  createCat: {
+    query: "insert into cat set ?",
+  },
   // userList: {
   //   query: "select * from user",
   // },
