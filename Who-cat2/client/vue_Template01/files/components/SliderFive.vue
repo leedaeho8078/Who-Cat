@@ -39,7 +39,7 @@
                       등록해주세요.
                     </p>
                     <div class="link-box">
-                      <nuxt-link to="/about" class="thm-btn"
+                      <nuxt-link to="/loginpage" class="thm-btn"
                         >등록하기</nuxt-link
                       >
                     </div>
@@ -73,7 +73,7 @@
                       않아요.
                     </p>
                     <div class="link-box">
-                      <nuxt-link to="/about" class="thm-btn"
+                      <nuxt-link to="/loginpage" class="thm-btn"
                         >등록하기</nuxt-link
                       >
                     </div>
@@ -106,7 +106,7 @@
                       반려묘를 꼭 등록해주세요.
                     </p>
                     <div class="link-box">
-                      <nuxt-link to="/about" class="thm-btn"
+                      <nuxt-link to="/loginpage" class="thm-btn"
                         >등록하기</nuxt-link
                       >
                     </div>
