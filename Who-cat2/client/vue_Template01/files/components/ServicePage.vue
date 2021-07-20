@@ -52,31 +52,31 @@
           <table class="table table-dark">
             <thead>
               <th>
-                catId
+                고유 아이디
               </th>
               <th>
-                catName
+                고양이 이름
               </th>
               <th>
-                userId
+                보호자 아이디
               </th>
               <th>
-                catBirth
+                고양이 생일
               </th>
               <th>
-                Gender
+                성별
               </th>
               <th>
-                Species
+                종
               </th>
               <th>
-                userName
+                보호자 이름
               </th>
               <th>
                 P.S
               </th>
               <th>
-                Missng?
+                실종여부
               </th>
             </thead>
             <tbody>
@@ -86,7 +86,7 @@
                 <td>{{ this.cat.catId }}</td>
                 <td>{{ this.cat.catName }}</td>
                 <td>{{ this.cat.userId }}</td>
-                <td>{{ this.cat.catBirth }}</td>
+                <td>{{ this.shortBirth }}</td>
                 <td>{{ this.cat.catGender }}</td>
                 <td>{{ this.cat.catSpeciesId }}</td>
                 <td>{{ this.cat.userName }}</td>
@@ -209,6 +209,7 @@ export default {
       if (cat.length > 0) {
         this.cat = cat[0];
         console.log(this.cat);
+        shortBirth = this.cat.catBirth.substr(0, 1);
       }
     },
     async getList() {
