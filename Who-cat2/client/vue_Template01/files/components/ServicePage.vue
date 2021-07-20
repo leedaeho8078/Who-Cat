@@ -47,6 +47,57 @@
             </div>
           </div>
         </div>
+
+        <div>
+          <table class="table table-dark">
+            <thead>
+              <th>
+                고유 아이디
+              </th>
+              <th>
+                고양이 이름
+              </th>
+              <th>
+                보호자 아이디
+              </th>
+              <th>
+                고양이 생일
+              </th>
+              <th>
+                성별
+              </th>
+              <th>
+                종
+              </th>
+              <th>
+                보호자 이름
+              </th>
+              <th>
+                P.S
+              </th>
+              <th>
+                실종여부
+              </th>
+            </thead>
+            <tbody>
+              <tr class="table-active"></tr>
+
+              <tr>
+                <td>{{ this.cat.catId }}</td>
+                <td>{{ this.cat.catName }}</td>
+                <td>{{ this.cat.userId }}</td>
+                <td>{{ this.cat.catBirth }}</td>
+                <td>{{ this.cat.catGender }}</td>
+                <td>{{ this.cat.catSpeciesId }}</td>
+                <td>{{ this.cat.userName }}</td>
+                <td>{{ this.cat.ps }}</td>
+                <td>{{ this.cat.missingYN }}</td>
+              </tr>
+            </tbody>
+          </table>
+
+          {{ this.cat }}
+        </div>
       </form>
       <!-- <div class="row">
         <div class="col-xl-4 col-lg-4">
