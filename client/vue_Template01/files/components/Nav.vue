@@ -167,7 +167,7 @@
               </button>
             </div>
             <ul>
-              <li><nuxt-link to="/">Home 01</nuxt-link></li>
+              <li><nuxt-link to="/loginpage">반영이왜안돼지</nuxt-link></li>
               <li><nuxt-link to="/index2">Home 02</nuxt-link></li>
               <li><nuxt-link to="/index3">Home 03</nuxt-link></li>
               <li><nuxt-link to="/index4">Home 04</nuxt-link></li>

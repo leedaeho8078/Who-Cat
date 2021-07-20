@@ -5,7 +5,7 @@
         <div class="topbar_two_content clearfix">
           <div class="logo-box-two float-left">
             <a href="/index2" class="main-nag__logo">
-              <img src="/assets/images/resources/logo.png" alt="">
+              <img src="/assets/images/resources/logo.png" alt="" />
             </a>
           </div>
           <div class="header_address_two float-left">
@@ -47,7 +47,13 @@
     </div>
 
     <header class="main-nav__header_two clearfix">
-      <nav :class="`header-navigation stricky clearfix ${sticky ? 'stricked-menu stricky-fixed' : ''}`">
+      <nav
+        :class="
+          `header-navigation stricky clearfix ${
+            sticky ? 'stricked-menu stricky-fixed' : ''
+          }`
+        "
+      >
         <div class="container">
           <div class="main-nav__header_two_content">
             <div class="mobile_menu_icon_two">
@@ -60,60 +66,82 @@
                 <li class="dropdown current">
                   <nuxt-link to="/">Home</nuxt-link>
                   <ul>
-                    <li><nuxt-link to="/">Home 01</nuxt-link></li>
+                    <li><nuxt-link to="/">H인덱스투1</nuxt-link></li>
                     <li><nuxt-link to="/index2">Home 02</nuxt-link></li>
                     <li><nuxt-link to="/index3">Home 03</nuxt-link></li>
                     <li><nuxt-link to="/index4">Home 04</nuxt-link></li>
                     <li><nuxt-link to="/index5">Home 05</nuxt-link></li>
-                    <li class="dropdown"><a href="#">Header Versions</a>
+                    <li class="dropdown">
+                      <a href="#">Header Versions</a>
                       <ul>
                         <li><nuxt-link to="/">Header 01</nuxt-link></li>
                         <li><nuxt-link to="/index2">Header 02</nuxt-link></li>
                         <li><nuxt-link to="/index3">Header 03</nuxt-link></li>
                         <li><nuxt-link to="/index4">Header 04</nuxt-link></li>
                         <li><nuxt-link to="/index5">Header 05</nuxt-link></li>
-                      </ul><!-- /.sub-menu -->
+                      </ul>
+                      <!-- /.sub-menu -->
                     </li>
-                  </ul><!-- /.sub-menu -->
+                  </ul>
+                  <!-- /.sub-menu -->
                 </li>
                 <li class="dropdown">
                   <nuxt-link to="/service">Services</nuxt-link>
                   <ul>
                     <li><nuxt-link to="/service">Services</nuxt-link></li>
-                    <li><nuxt-link to="/service-detail">Services Detail</nuxt-link></li>
-                  </ul><!-- /.sub-menu -->
+                    <li>
+                      <nuxt-link to="/service-detail"
+                        >Services Detail</nuxt-link
+                      >
+                    </li>
+                  </ul>
+                  <!-- /.sub-menu -->
                 </li>
                 <li class="dropdown">
                   <nuxt-link to="/projects">Our Projects</nuxt-link>
                   <ul>
                     <li><nuxt-link to="/projects">Projects</nuxt-link></li>
-                    <li><nuxt-link to="/projects_detail">Projects Detail</nuxt-link></li>
-                  </ul><!-- /.sub-menu -->
+                    <li>
+                      <nuxt-link to="/projects_detail"
+                        >Projects Detail</nuxt-link
+                      >
+                    </li>
+                  </ul>
+                  <!-- /.sub-menu -->
                 </li>
                 <li class="dropdown">
                   <nuxt-link to="#">Shop</nuxt-link>
                   <ul>
                     <li><nuxt-link to="/product">Products</nuxt-link></li>
-                    <li><nuxt-link to="/product-detail">Product Detail</nuxt-link></li>
+                    <li>
+                      <nuxt-link to="/product-detail">Product Detail</nuxt-link>
+                    </li>
                     <li><nuxt-link to="/cart">Cart</nuxt-link></li>
                     <li><nuxt-link to="/checkout">Checkout</nuxt-link></li>
-                  </ul><!-- /.sub-menu -->
+                  </ul>
+                  <!-- /.sub-menu -->
                 </li>
                 <li class="dropdown">
                   <nuxt-link to="#">Pages</nuxt-link>
                   <ul>
                     <li><nuxt-link to="/about">About</nuxt-link></li>
-                    <li><nuxt-link to="/why_choose_us">Why Choose Us</nuxt-link></li>
+                    <li>
+                      <nuxt-link to="/why_choose_us">Why Choose Us</nuxt-link>
+                    </li>
                     <li><nuxt-link to="/farmers">Farmers</nuxt-link></li>
                     <li><nuxt-link to="/gallery">Gallery</nuxt-link></li>
-                  </ul><!-- /.sub-menu -->
+                  </ul>
+                  <!-- /.sub-menu -->
                 </li>
                 <li class="dropdown">
                   <nuxt-link to="#">News</nuxt-link>
                   <ul>
                     <li><nuxt-link to="/news">News</nuxt-link></li>
-                    <li><nuxt-link to="/news_detail">News Details</nuxt-link></li>
-                  </ul><!-- /.sub-menu -->
+                    <li>
+                      <nuxt-link to="/news_detail">News Details</nuxt-link>
+                    </li>
+                  </ul>
+                  <!-- /.sub-menu -->
                 </li>
                 <li>
                   <nuxt-link to="/contact">Contact</nuxt-link>
@@ -123,8 +151,9 @@
 
             <div class="main_nav_right_two float-right">
               <div class="icon_search_box">
-                <a href="#" class="main-nav__search search-popup__toggler"><i
-                  class="icon-magnifying-glass"></i></a>
+                <a href="#" class="main-nav__search search-popup__toggler"
+                  ><i class="icon-magnifying-glass"></i
+                ></a>
               </div>
               <div class="icon_cart_box">
                 <nuxt-link to="/cart">
@@ -132,18 +161,23 @@
                 </nuxt-link>
               </div>
             </div>
-
           </div>
         </div>
-
       </nav>
 
-      <nav class="mobile-nav__container" :style="`display: ${mobileToggle ? 'block' : 'none'}`">
+      <nav
+        class="mobile-nav__container"
+        :style="`display: ${mobileToggle ? 'block' : 'none'}`"
+      >
         <!-- content is loading via js -->
 
         <ul class="main-nav__navigation-box">
           <li class="dropdown current">
-            <div class="menu-holder">Home<button class="dropdown-btn"><i class="fa fa-angle-right"></i></button></div>
+            <div class="menu-holder">
+              Home<button class="dropdown-btn">
+                <i class="fa fa-angle-right"></i>
+              </button>
+            </div>
             <ul>
               <li><nuxt-link to="/">Home 01</nuxt-link></li>
               <li><nuxt-link to="/index2">Home 02</nuxt-link></li>
@@ -151,91 +185,124 @@
               <li><nuxt-link to="/index4">Home 04</nuxt-link></li>
               <li><nuxt-link to="/index5">Home 05</nuxt-link></li>
               <li class="dropdown">
-                <div class="menu-holder">Header Versions<button class="dropdown-btn"><i class="fa fa-angle-right"></i></button></div>
+                <div class="menu-holder">
+                  Header Versions<button class="dropdown-btn">
+                    <i class="fa fa-angle-right"></i>
+                  </button>
+                </div>
                 <ul>
                   <li><nuxt-link to="/">Header 01</nuxt-link></li>
                   <li><nuxt-link to="/index2">Header 02</nuxt-link></li>
                   <li><nuxt-link to="/index3">Header 03</nuxt-link></li>
                   <li><nuxt-link to="/index4">Header 04</nuxt-link></li>
                   <li><nuxt-link to="/index5">Header 05</nuxt-link></li>
-                </ul><!-- /.sub-menu -->
+                </ul>
+                <!-- /.sub-menu -->
               </li>
-            </ul><!-- /.sub-menu -->
+            </ul>
+            <!-- /.sub-menu -->
           </li>
           <li class="dropdown">
-            <div class="menu-holder">Services<button class="dropdown-btn"><i class="fa fa-angle-right"></i></button></div>
+            <div class="menu-holder">
+              Services<button class="dropdown-btn">
+                <i class="fa fa-angle-right"></i>
+              </button>
+            </div>
             <ul>
               <li><nuxt-link to="/service">Services</nuxt-link></li>
-              <li><nuxt-link to="/service-detail">Services Detail</nuxt-link></li>
-            </ul><!-- /.sub-menu -->
+              <li>
+                <nuxt-link to="/service-detail">Services Detail</nuxt-link>
+              </li>
+            </ul>
+            <!-- /.sub-menu -->
           </li>
           <li class="dropdown">
-            <div class="menu-holder">Our Projects<button class="dropdown-btn"><i class="fa fa-angle-right"></i></button></div>
+            <div class="menu-holder">
+              Our Projects<button class="dropdown-btn">
+                <i class="fa fa-angle-right"></i>
+              </button>
+            </div>
             <ul>
               <li><nuxt-link to="/projects">Projects</nuxt-link></li>
-              <li><nuxt-link to="/projects_detail">Projects Detail</nuxt-link></li>
-            </ul><!-- /.sub-menu -->
+              <li>
+                <nuxt-link to="/projects_detail">Projects Detail</nuxt-link>
+              </li>
+            </ul>
+            <!-- /.sub-menu -->
           </li>
           <li class="dropdown">
-            <div class="menu-holder">Shop<button class="dropdown-btn"><i class="fa fa-angle-right"></i></button></div>
+            <div class="menu-holder">
+              Shop<button class="dropdown-btn">
+                <i class="fa fa-angle-right"></i>
+              </button>
+            </div>
             <ul>
               <li><nuxt-link to="/product">Products</nuxt-link></li>
-              <li><nuxt-link to="/product-detail">Product Detail</nuxt-link></li>
+              <li>
+                <nuxt-link to="/product-detail">Product Detail</nuxt-link>
+              </li>
               <li><nuxt-link to="/cart">Cart</nuxt-link></li>
               <li><nuxt-link to="/checkout">Checkout</nuxt-link></li>
-            </ul><!-- /.sub-menu -->
+            </ul>
+            <!-- /.sub-menu -->
           </li>
           <li class="dropdown">
-            <div class="menu-holder">Pages<button class="dropdown-btn"><i class="fa fa-angle-right"></i></button></div>
+            <div class="menu-holder">
+              Pages<button class="dropdown-btn">
+                <i class="fa fa-angle-right"></i>
+              </button>
+            </div>
             <ul>
               <li><nuxt-link to="/about">About</nuxt-link></li>
               <li><nuxt-link to="/why_choose_us">Why Choose Us</nuxt-link></li>
               <li><nuxt-link to="/farmers">Farmers</nuxt-link></li>
               <li><nuxt-link to="/gallery">Gallery</nuxt-link></li>
-            </ul><!-- /.sub-menu -->
+            </ul>
+            <!-- /.sub-menu -->
           </li>
           <li class="dropdown">
-            <div class="menu-holder">News<button class="dropdown-btn"><i class="fa fa-angle-right"></i></button></div>
+            <div class="menu-holder">
+              News<button class="dropdown-btn">
+                <i class="fa fa-angle-right"></i>
+              </button>
+            </div>
             <ul>
               <li><nuxt-link to="/news">News</nuxt-link></li>
               <li><nuxt-link to="/news_detail">News Details</nuxt-link></li>
-            </ul><!-- /.sub-menu -->
+            </ul>
+            <!-- /.sub-menu -->
           </li>
           <li>
             <nuxt-link to="/contact">Contact</nuxt-link>
           </li>
         </ul>
       </nav>
-
     </header>
   </div>
 </template>
 
 <script>
-    export default {
-      name: "NavTwo",
-      data(){
-        return {
-          sticky: false,
-          mobileToggle: false
-        }
-      },
-      mounted() {
-        window.addEventListener('scroll', this.handleScroll);
-      },
-      methods: {
-
-        handleScroll() {
-          if (window.scrollY > 70) {
-            this.sticky = true
-          } else if (window.scrollY < 70) {
-            this.sticky = false
-          }
-        },
+export default {
+  name: "NavTwo",
+  data() {
+    return {
+      sticky: false,
+      mobileToggle: false
+    };
+  },
+  mounted() {
+    window.addEventListener("scroll", this.handleScroll);
+  },
+  methods: {
+    handleScroll() {
+      if (window.scrollY > 70) {
+        this.sticky = true;
+      } else if (window.scrollY < 70) {
+        this.sticky = false;
       }
     }
+  }
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
