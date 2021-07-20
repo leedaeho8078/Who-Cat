@@ -86,7 +86,7 @@
                 <td>{{ this.cat.catId }}</td>
                 <td>{{ this.cat.catName }}</td>
                 <td>{{ this.cat.userId }}</td>
-                <td>{{ this.shortBirth }}</td>
+                <td>{{ this.cat.catBirth }}</td>
                 <td>{{ this.cat.catGender }}</td>
                 <td>{{ this.cat.catSpeciesId }}</td>
                 <td>{{ this.cat.userName }}</td>
@@ -209,7 +209,6 @@ export default {
       if (cat.length > 0) {
         this.cat = cat[0];
         console.log(this.cat);
-        shortBirth = this.cat.catBirth.substr(0, 1);
       }
     },
     async getList() {
