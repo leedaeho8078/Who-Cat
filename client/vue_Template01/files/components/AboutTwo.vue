@@ -73,7 +73,7 @@
             </div>
             <div class="col-md-6">
               <div class="input-group">
-                <input type="date" name="number" placeholder="고양이 생일" />
+                <input type="date" name="number" placeholder="고양이 생일"/>
               </div>
             </div>
             <div class="col-md-6">
@@ -83,22 +83,22 @@
             </div>
             <div class="col-md-6">
               <div class="input-group">
-                <input type="text" name="name" placeholder="보호자 이름을 입력해주세요." />
+                <input type="text" name="name" placeholder="보호자 이름을 입력해주세요." v-model="parentsName" />
               </div>
             </div>
             <div class="col-md-6">
               <div class="input-group">
-                <input type="text" name="name" placeholder="보호자 주소을 입력해주세요." />
+                <input type="text" name="name" placeholder="보호자 주소을 입력해주세요." v-model="parentsAddress"/>
               </div>
             </div>
             <div class="col-md-6">
               <div class="input-group">
-                <input type="text" name="phone" placeholder="보호자 연락처를 입력해주세요." />
+                <input type="text" name="phone" placeholder="보호자 연락처를 입력해주세요." v-model="parentsContact" />
               </div>
             </div>
             <div class="col-md-6">
               <div class="input-group">
-                <input type="text" name="email" placeholder="보호자 이메일을 입력해주세요." />
+                <input type="text" name="email" placeholder="보호자 이메일을 입력해주세요." v-model="parentsEmail"/>
               </div>
             </div>
 
@@ -115,7 +115,7 @@
                 class="input-group contact__btn"
                 style="align-content:center"
               >
-                <button type="submit" class="thm-btn contact-one__btn">
+                <button type="submit" class="thm-btn contact-one__btn" @click="createPerson()">
                   제출하기
                 </button>
               </div>
@@ -149,7 +149,51 @@
 
 <script>
 export default {
-  name: "AboutTwo"
+  name: "AboutTwo",
+  components:{},
+  data(){
+    return {
+      list :[],
+    parentsName:"",
+    parentsAddress:"",
+    parentsContact:"",
+    parentsEmail:"",
+
+
+    };
+
+  },
+  setup(){},
+  created(){},
+  mounted(){
+    this.getList();
+  },
+  unmounted(){},
+  methods:{
+    async getList(){
+      this.list = await this.$api("/api/getList","get",{});
+      console.log(this.list);
+    },
+    async createPerson(){
+      const r = await this.$api("/api/createPerson","post",{
+        param : [
+          {
+           parentsName: this.parentsName,
+           parentsAddress : this.parentsAddress,
+           parentsContact : this.parentsContact,
+           parentsEmail  : this.parentsEmail,
+
+
+          },
+   
+        ],
+      });
+          console.log(r);
+          this.getList();
+    },
+
+  }
+
 };
 </script>
 
