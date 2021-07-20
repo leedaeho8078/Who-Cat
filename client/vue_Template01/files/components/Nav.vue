@@ -167,23 +167,17 @@
               </button>
             </div>
             <ul>
-              <li><nuxt-link to="/loginpage">반영이왜안돼지</nuxt-link></li>
-              <li><nuxt-link to="/index2">Home 02</nuxt-link></li>
-              <li><nuxt-link to="/index3">Home 03</nuxt-link></li>
-              <li><nuxt-link to="/index4">Home 04</nuxt-link></li>
-              <li><nuxt-link to="/index5">Home 05</nuxt-link></li>
+              <li><nuxt-link to="/">Sweet Home ❤️</nuxt-link></li>
+              
               <li class="dropdown">
                 <div class="menu-holder">
-                  Header Versions<button class="dropdown-btn">
+                  등록<button class="dropdown-btn">
                     <i class="fa fa-angle-right"></i>
                   </button>
                 </div>
                 <ul>
-                  <li><nuxt-link to="/">Header 01</nuxt-link></li>
-                  <li><nuxt-link to="/index2">Header 02</nuxt-link></li>
-                  <li><nuxt-link to="/index3">Header 03</nuxt-link></li>
-                  <li><nuxt-link to="/index4">Header 04</nuxt-link></li>
-                  <li><nuxt-link to="/index5">Header 05</nuxt-link></li>
+                  <li><nuxt-link to="/loginpage">여기서 고양이를 등록하라옹 🐱</nuxt-link></li>
+                  
                 </ul>
                 <!-- /.sub-menu -->
               </li>
@@ -192,77 +186,44 @@
           </li>
           <li class="dropdown">
             <div class="menu-holder">
-              Services<button class="dropdown-btn">
+              조회<button class="dropdown-btn">
                 <i class="fa fa-angle-right"></i>
               </button>
             </div>
             <ul>
-              <li><nuxt-link to="/service">Services</nuxt-link></li>
-              <li>
-                <nuxt-link to="/service-detail">Services Detail</nuxt-link>
-              </li>
+              <li><nuxt-link to="/service">조회하라옹 🌸</nuxt-link></li>
+              
             </ul>
             <!-- /.sub-menu -->
           </li>
           <li class="dropdown">
             <div class="menu-holder">
-              Our Projects<button class="dropdown-btn">
+              굿즈<button class="dropdown-btn">
                 <i class="fa fa-angle-right"></i>
               </button>
             </div>
             <ul>
-              <li><nuxt-link to="/projects">Projects</nuxt-link></li>
-              <li>
-                <nuxt-link to="/projects_detail">Projects Detail</nuxt-link>
-              </li>
+              <li><nuxt-link to="/product">누구냥 굿즈 팔아요 🎁</nuxt-link></li>
+             
             </ul>
             <!-- /.sub-menu -->
           </li>
           <li class="dropdown">
             <div class="menu-holder">
-              Shop<button class="dropdown-btn">
+              고객센터<button class="dropdown-btn">
                 <i class="fa fa-angle-right"></i>
               </button>
             </div>
             <ul>
-              <li><nuxt-link to="/product">Products</nuxt-link></li>
-              <li>
-                <nuxt-link to="/product-detail">Product Detail</nuxt-link>
-              </li>
-              <li><nuxt-link to="/cart">Cart</nuxt-link></li>
-              <li><nuxt-link to="/checkout">Checkout</nuxt-link></li>
+              <li><nuxt-link to="/contact">고객센터</nuxt-link></li>
+             
             </ul>
             <!-- /.sub-menu -->
-          </li>
-          <li class="dropdown">
-            <div class="menu-holder">
-              Pages<button class="dropdown-btn">
-                <i class="fa fa-angle-right"></i>
-              </button>
-            </div>
-            <ul>
-              <li><nuxt-link to="/about">About</nuxt-link></li>
-              <li><nuxt-link to="/why_choose_us">Why Choose Us</nuxt-link></li>
-              <li><nuxt-link to="/farmers">Farmers</nuxt-link></li>
-              <li><nuxt-link to="/gallery">Gallery</nuxt-link></li>
-            </ul>
+         
             <!-- /.sub-menu -->
           </li>
-          <li class="dropdown">
-            <div class="menu-holder">
-              News<button class="dropdown-btn">
-                <i class="fa fa-angle-right"></i>
-              </button>
-            </div>
-            <ul>
-              <li><nuxt-link to="/news">News</nuxt-link></li>
-              <li><nuxt-link to="/news_detail">News Details</nuxt-link></li>
-            </ul>
-            <!-- /.sub-menu -->
-          </li>
-          <li>
-            <nuxt-link to="/contact">Contact</nuxt-link>
-          </li>
+          
+          
         </ul>
       </nav>
     </header>
