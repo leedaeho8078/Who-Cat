@@ -102,7 +102,7 @@ export default {
   cursor: pointer;
   position: relative;
   font-weight: 400;
-  font-family: var(--heading-font);
+  font-family: var(--thm-font);
 }
 
 .ac.is-active .ac-q {

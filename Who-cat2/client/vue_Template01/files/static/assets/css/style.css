@@ -5864,7 +5864,7 @@ h6 {
 }
 .faq-one-accrodion .accrodion-title h4::before {
   content: "\f067";
-  font-family: "Font Awesome 5 Free";
+  font-family: var(--thm-font);
   font-weight: 900;
   font-size: 14px;
   color: #ffffff;
