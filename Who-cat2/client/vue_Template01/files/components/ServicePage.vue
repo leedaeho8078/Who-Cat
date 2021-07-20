@@ -47,6 +47,57 @@
             </div>
           </div>
         </div>
+
+        <div>
+          <table class="table table-dark">
+            <thead>
+              <th>
+                catId
+              </th>
+              <th>
+                catName
+              </th>
+              <th>
+                userId
+              </th>
+              <th>
+                catBirth
+              </th>
+              <th>
+                Gender
+              </th>
+              <th>
+                Species
+              </th>
+              <th>
+                userName
+              </th>
+              <th>
+                P.S
+              </th>
+              <th>
+                Missng?
+              </th>
+            </thead>
+            <tbody>
+              <tr class="table-active"></tr>
+
+              <tr>
+                <td>{{ this.cat.catId }}</td>
+                <td>{{ this.cat.catName }}</td>
+                <td>{{ this.cat.userId }}</td>
+                <td>{{ this.cat.catBirth }}</td>
+                <td>{{ this.cat.catGender }}</td>
+                <td>{{ this.cat.catSpeciesId }}</td>
+                <td>{{ this.cat.userName }}</td>
+                <td>{{ this.cat.ps }}</td>
+                <td>{{ this.cat.missingYN }}</td>
+              </tr>
+            </tbody>
+          </table>
+
+          {{ this.cat }}
+        </div>
       </form>
       <!-- <div class="row">
         <div class="col-xl-4 col-lg-4">
@@ -147,7 +198,7 @@ export default {
   },
 
   mounted() {
-    // this.getList();
+    this.getDetail();
   },
   methods: {
     async getDetail() {
