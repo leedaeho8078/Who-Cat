@@ -48,7 +48,7 @@
           </div>
         </div>
       </form>
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-xl-4 col-lg-4">
           <div
             class="service_four_single wow fadeInLeft animated"
@@ -130,7 +130,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>
