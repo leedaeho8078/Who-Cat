@@ -147,13 +147,13 @@
               <a href="#"><i class="fab fa-facebook-square"></i></a>
               <a href="#"><i class="fab fa-twitter"></i></a>
               <a href="#"><i class="fab fa-instagram"></i></a>
-              <a href="#"><i class="fab fa-dribbble"></i></a>
+              <!-- <a href="#"><i class="fab fa-dribbble"></i></a> -->
               
               <a href="/loginpage">
-            <button style="padding: 8px 5px; background-color:#eddd5e; border:none; margin:0px; border-radius:8px;">  login  </button>
+            <button style="padding: 8px 12px; background-color:#eddd5e; border:none; margin:0px; border-radius:8px;">  login  </button>
             </a>
             <a href="/signinpage">
-            <button style="padding: 8px 5px; background-color:#50CB93; border:none; margin:0px; border-radius:8px;">Join</button>
+            <button style="padding: 8px 12px; background-color:#50CB93; border:none; margin:0px; border-radius:8px;">Join</button>
             </a>
             
             
