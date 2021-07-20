@@ -89,7 +89,7 @@
               <li class="dropdown">
                 <nuxt-link to="/loginpage">등록</nuxt-link>
                 <ul>
-                  <li><nuxt-link to="/loginpage">여기서 고양이를 등록하라옹</nuxt-link></li>
+                  <li><nuxt-link to="/loginpage">여기서 고양이를 등록하라옹 🐱</nuxt-link></li>
                   <li>
                     <!-- <nuxt-link to="/about">Projects Detail</nuxt-link> -->
                   </li>
@@ -100,7 +100,7 @@
               <li class="dropdown">
                 <nuxt-link to="/service">조회</nuxt-link>
                 <ul>
-                  <li><nuxt-link to="/service">여기서 고양이를 조회하라옹</nuxt-link></li>
+                  <li><nuxt-link to="/service">여기서 고양이를 조회하라옹 🌸</nuxt-link></li>
                   <li>
                     <!-- <nuxt-link to="/service-detail">Services Detail</nuxt-link> -->
                   </li>
@@ -110,7 +110,7 @@
               <li class="dropdown">
                 <nuxt-link to="/product">굿즈</nuxt-link>
                 <ul>
-                  <li><nuxt-link to="/product">누구냥 굿즈 팔아요</nuxt-link></li>
+                  <li><nuxt-link to="/product">누구냥 굿즈 팔아요 🎁</nuxt-link></li>
                   <li>
                     <!-- <nuxt-link to="/product-detail">Product Detail</nuxt-link> -->
                   </li>
