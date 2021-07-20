@@ -2,7 +2,7 @@
   <div style="padding:100px 100px 100px 650px;">
     <div class="col-md-12 col-sm-12 col-xs-12 login-block">
       <div class="login-check">
-        <h3>회원가입</h3>
+        <h3>Join</h3>
         <div class="col-md-7 col-sm-6 col-xs-6 login-form">
           <form>
             <div class="form-group">
@@ -24,7 +24,7 @@
 
            
 
-            <button style="padding: 5px 10px; background-color:#50CB93; border:none; margin:10px; border-radius:8px;">회원가입</button>
+            <button style="padding: 5px 10px; background-color:#50CB93; border:none; margin:10px; border-radius:8px;">Join</button>
 
 
 
