@@ -1,7 +1,7 @@
 <template>
   <div>
     <Nav />
-    <PageHeader title="About" />
+    <PageHeader title="등록하기" />
     <AboutTwo />
     <TestimonialFour />
     <BrandOne />
