@@ -204,32 +204,28 @@
                   type="submit"
                   class="thm-btn contact-one__btn"
                   @click="createCat()"
-                  style="margin:0 0 0 450px"
+                  style="margin:0px 0px 0px 450px"
                 >
-                  제출하기
+                  등록하기
                 </button>
 
                 <br />
+                <br />
 
-                <!-- <input
-                  maxlength="4"
-                  name="newCatId"
-                  placeholder="생성된 고유 고양이 ID"
-                  readonly
-                  style="width:50%; margin-left:250px"
-                /> -->
-
-                <span style="color:tomato"
-                  >생성된 고유 고양이 id:{{ catId }}</span
-                >
                 <button
                   type="submit"
                   class="thm-btn contact-one__btn"
                   @click="getList()"
-                  style="margin:0 0 0 450px"
+                  style="margin:30px 0px 0px 450px"
                 >
                   불러오기
                 </button>
+                <span
+                  style="color:tomato;
+                margin:50px 0 0 0"
+                >
+                  생성된 고유 고양이 id:{{ catId }}</span
+                >
               </div>
             </div>
           </div>
@@ -290,6 +286,7 @@ export default {
       this.list = await this.$api("/api/catList", "post", {});
       this.catId = this.list[this.list.length - 1]["catId"];
       console.log(this.list);
+      alert("고양이 고유 아이디:" + this.catId);
     },
     // async getcatDetail() {
     //   const cat = await this.$api("/api/getcatDetail", "post", {
