@@ -12,6 +12,9 @@
               <input class="form-control" placeholder="아이디" type="text" />
             </div>
             <div class="form-group">
+              <input class="form-control" placeholder="비밀번호" type="password" />
+            </div>
+            <div class="form-group">
               <input class="form-control" placeholder="주소" type="text" />
             </div>
             <div class="form-group">

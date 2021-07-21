@@ -9,7 +9,7 @@
               <input class="form-control" placeholder="아이디" type="text" />
             </div>
             <div class="form-group">
-              <input class="form-control" placeholder="비밀번호" type="text" />
+              <input class="form-control" placeholder="비밀번호" type="password" />
             </div>
 
             <nuxt-link to="/about"> <button style="padding: 5px 10px; background-color:#eddd5e; border:none; margin:10px; border-radius:8px;">login</button></nuxt-link>
