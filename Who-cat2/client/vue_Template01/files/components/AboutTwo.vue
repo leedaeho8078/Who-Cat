@@ -54,7 +54,12 @@
             </div>
             <div class="col-md-6">
               <div class="input-group">
-                <input type="text" name="name" placeholder="고양이 이름을 입력해주세요." v-model="catName" />
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="고양이 이름을 입력해주세요."
+                  v-model="catName"
+                />
               </div>
             </div>
             <div class="col-md-6">
@@ -62,23 +67,53 @@
                 class="input-group"
                 style="color:black; background-color:#eceeef; border-radius: 5px; height:80px; padding:27px;"
               >
-                <label><input type="radio" value="0" name="gender" v-model="catGender"/>중성화완료</label>               
-                  <label><input type="radio" value="1" name="gender" v-model="catGender"/>암컷</label>
-                  <label><input type="radio" value="2" name="gender" v-model="catGender"/>수컷</label>
+                <label
+                  ><input
+                    type="radio"
+                    value="0"
+                    name="gender"
+                    v-model="catGender"
+                  />중성화완료</label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    value="1"
+                    name="gender"
+                    v-model="catGender"
+                  />암컷</label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    value="2"
+                    name="gender"
+                    v-model="catGender"
+                  />수컷</label
+                >
 
-                  <!-- <div class="input-group">
+                <!-- <div class="input-group">
                 <input type="text" name="name" placeholder="고양이 성별" /> -->
-                </p>
               </div>
             </div>
             <div class="col-md-6">
               <div class="input-group">
-                <input type="text" name="number" placeholder="고양이 생일" v-model.number="catBirth"/>
+                <input
+                  type="text"
+                  name="number"
+                  placeholder="고양이 생일"
+                  v-model.number="catBirth"
+                />
               </div>
             </div>
             <div class="col-md-6">
               <div class="input-group">
-                <input type="text" name="subject" placeholder="고양이 품종을 입력해주세요." v-model="catSpecies" />
+                <input
+                  type="text"
+                  name="subject"
+                  placeholder="고양이 품종을 입력해주세요."
+                  v-model="catSpecies"
+                />
               </div>
             </div>
             <!-- <div class="col-md-6">
@@ -106,18 +141,36 @@
               <div class="input-group">
                 <textarea
                   name="message"
-                  placeholder="고양이 특이사항을 입력해주세요." v-model="ps"
+                  placeholder="고양이 특이사항을 입력해주세요."
+                  v-model="ps"
                 ></textarea>
               </div>
             </div>
             <div class="col-md-12">
               <div class="input-group">
+<<<<<<< HEAD
                 <input type="password" maxlength="4" name="userid" placeholder="보호자 아이디를 숫자4자리로 입력해주세요." v-model.number="userId" />
+=======
+                <input
+                  type="password"
+                  maxlength="4"
+                  name="userid"
+                  placeholder="보호자 아이디를 숫자4자리로 입력해주세요."
+                />
+>>>>>>> 666b0e6dc6086856eeb96e4ac8c3c14beb626603
               </div>
             </div>
             <div class="col-md-6">
               <div class="input-group">
+<<<<<<< HEAD
                 <input type="text" name="username" placeholder="보호자 이름을 입력해주세요." v-model="userName" />
+=======
+                <input
+                  type="text"
+                  name="username"
+                  placeholder="보호자 이름을 입력해주세요."
+                />
+>>>>>>> 666b0e6dc6086856eeb96e4ac8c3c14beb626603
               </div>
             </div>
             <div class="col-md-6">
@@ -125,13 +178,29 @@
                 class="input-group"
                 style="color:black; background-color:#eceeef; border-radius: 5px; height:80px; padding:27px;"
               >
+<<<<<<< HEAD
                 <label><input type="radio" value="Y" name="missingYN" v-model="missingYN"/>유실묘(O)</label>               
                   <label><input type="radio" value="N" name="missingYN" v-model="missingYN"/>유실묘(X)</label>
                   
+=======
+                <label
+                  ><input
+                    type="radio"
+                    value="Y"
+                    name="missingYN"
+                  />유실묘(O)</label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    value="N"
+                    name="missingYN"
+                  />유실묘(X)</label
+                >
+>>>>>>> 666b0e6dc6086856eeb96e4ac8c3c14beb626603
 
-                  <!-- <div class="input-group">
+                <!-- <div class="input-group">
                 <input type="text" name="name" placeholder="고양이 성별" /> -->
-                </p>
               </div>
             </div>
             <div class="col-md-12">
@@ -139,7 +208,11 @@
                 class="input-group contact__btn"
                 style="align-content:center"
               >
-                <button type="submit" class="thm-btn contact-one__btn" @click="createCat()">
+                <button
+                  type="submit"
+                  class="thm-btn contact-one__btn"
+                  @click="createCat()"
+                >
                   제출하기
                 </button>
               </div>
@@ -174,9 +247,10 @@
 <script>
 export default {
   name: "AboutTwo",
-  components:{},
-  data(){
+  components: {},
+  data() {
     return {
+<<<<<<< HEAD
       list :[],
       catName:"",
       catGender:"",
@@ -186,24 +260,32 @@ export default {
       missingYN:"",
       userName:"",
       userId:"",
+=======
+      list: [],
+      catName: "",
+      catGender: "",
+      catBirth: "",
+      catSpecies: "",
+      ps: ""
+>>>>>>> 666b0e6dc6086856eeb96e4ac8c3c14beb626603
     };
-
   },
-  setup(){},
-  created(){},
-  mounted(){
+  setup() {},
+  created() {},
+  mounted() {
     // this.getList();
   },
-  unmounted(){},
-  methods:{
-    async getList(){
-      this.list = await this.$api("/api/getList","get",{});
+  unmounted() {},
+  methods: {
+    async getList() {
+      this.list = await this.$api("/api/getList", "get", {});
       console.log(this.list);
     },
-    async createCat(){
-      const r = await this.$api("/api/createCat","post",{
-        param : [
+    async createCat() {
+      const r = await this.$api("/api/createCat", "post", {
+        param: [
           {
+<<<<<<< HEAD
           catName : this.catName,
            catGender : this.catGender,
            catBirth : this.catBirth,
@@ -215,13 +297,20 @@ export default {
           },
    
         ],
+=======
+            catName: this.catName,
+            catGender: this.catGender,
+            catBirth: this.catBirth,
+            catSpecies: this.catSpecies,
+            ps: this.ps
+          }
+        ]
+>>>>>>> 666b0e6dc6086856eeb96e4ac8c3c14beb626603
       });
-          console.log(r);
-          this.getList();
-    },
-
+      console.log(r);
+      this.getList();
+    }
   }
-
 };
 </script>
 

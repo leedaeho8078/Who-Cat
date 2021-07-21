@@ -1,13 +1,15 @@
 <template>
   <section class="bx-testimonial">
-    <div class="bx-testimonial_bg" style="background-image: url(/assets/images/testimonials/bx-testi-bg.png)">
-    </div>
+    <div
+      class="bx-testimonial_bg"
+      style="background-image: url(/assets/images/testimonials/bx-testi-bg.png)"
+    ></div>
     <div class="container">
       <div class="block-title text-center">
-        <p>our team members</p>
-        <h3>meet the farmers</h3>
+        <p>외장형 전자태그란?</p>
+        <h3>WHO-CAT</h3>
         <div class="leaf">
-          <img src="/assets/images/resources/leaf.png" alt="">
+          <img src="/assets/images/resources/leaf.png" alt="" />
         </div>
       </div>
       <div class="row">
@@ -18,29 +20,12 @@
                 <li>
                   <a class="active" data-slide-index="0" href="#">
                     <div class="img-holder">
-                      <img src="/assets/images/testimonials/bx-testi-1.png" alt="">
+                      <img
+                        src="http://localhost:3000/assets/images/resources/logo.png"
+                        alt=""
+                      />
                       <div class="quote_testimonial">
-                        <img src="/assets/images/icon/quote_1.png" alt="">
-                      </div>
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a data-slide-index="1" href="#">
-                    <div class="img-holder">
-                      <img src="/assets/images/testimonials/bx-testi-2.png" alt="">
-                      <div class="quote_testimonial">
-                        <img src="/assets/images/icon/quote_1.png" alt="">
-                      </div>
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a data-slide-index="2" href="#">
-                    <div class="img-holder">
-                      <img src="/assets/images/testimonials/bx-testi-3.png" alt="">
-                      <div class="quote_testimonial">
-                        <img src="/assets/images/icon/quote_1.png" alt="">
+                        <img src="/assets/images/icon/quote_1.png" alt="" />
                       </div>
                     </div>
                   </a>
@@ -48,39 +33,53 @@
               </ul>
             </div>
 
-            <ul class="slider-content clearfix bxslider list-unstyled text-center">
+            <ul
+              class="slider-content clearfix bxslider list-unstyled text-center"
+            >
               <no-ssr>
-                <carousel :items="1" :autoplay="true" :nav="false" :dots="false">
-              <li>
-                <div class="bx_testimonial_single clearfix">
-                  <div class="bx_testimonial_text">
-                    <p>This is due to their excellent service, competitive pricing and customer
-                      support. It’s throughly refresing to get such a personal touch.</p>
-                    <h3>christine rose</h3>
-                    <h6>Customer</h6>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="bx_testimonial_single clearfix">
-                  <div class="bx_testimonial_text">
-                    <p>This is due to their excellent service, competitive pricing and customer
-                      support. It’s throughly refresing to get such a personal touch.</p>
-                    <h3>christine rose</h3>
-                    <h6>Customer</h6>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="bx_testimonial_single clearfix">
-                  <div class="bx_testimonial_text">
-                    <p>This is due to their excellent service, competitive pricing and customer
-                      support. It’s throughly refresing to get such a personal touch.</p>
-                    <h3>christine rose</h3>
-                    <h6>Customer</h6>
-                  </div>
-                </div>
-              </li>
+                <carousel
+                  :items="1"
+                  :autoplay="true"
+                  :nav="false"
+                  :dots="false"
+                >
+                  <li>
+                    <div class="bx_testimonial_single clearfix">
+                      <div class="bx_testimonial_text">
+                        <p>
+                          반려묘를 등록하면, 반려묘 유실시 빠른 시일 내에 찾는
+                          것을 도울 수 있습니다. 등록 후 '외장형 전자태그'를
+                          소장할 수 있습니다.
+                        </p>
+                        <h3>누구냥 만의 독보적인 디자인</h3>
+                        <h6>외장형 전자태그</h6>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="bx_testimonial_single clearfix">
+                      <div class="bx_testimonial_text">
+                        <p>
+                          외장형 전자태그란, 목걸이형태의 팬던트 내부에 RFID칩을
+                          삽입하여 외장칩만으로 등록이 가능합니다.
+                        </p>
+                        <h3>누구냥 만의 간편한 사용성</h3>
+                        <h6>외장형 전자태그</h6>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="bx_testimonial_single clearfix">
+                      <div class="bx_testimonial_text">
+                        <p>
+                          외장형 전자태그는, 체내 마이크로칩 삽입 시술을 하지
+                          않아서 내 반려묘가 아파하지 않아요.
+                        </p>
+                        <h3>누구냥 만의 높은 활용성</h3>
+                        <h6>외장형 전자태그</h6>
+                      </div>
+                    </div>
+                  </li>
                 </carousel>
               </no-ssr>
             </ul>
@@ -92,11 +91,9 @@
 </template>
 
 <script>
-    export default {
-        name: "TestimonialFour"
-    }
+export default {
+  name: "TestimonialFour"
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
