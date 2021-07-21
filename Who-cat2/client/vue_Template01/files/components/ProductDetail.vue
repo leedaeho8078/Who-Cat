@@ -54,12 +54,12 @@
                 </div>
               </div>
               <ul class="list-unstyled category_tag_list">
-                <li>Category: Food</li>
-                <li>Tags: Vegetables, Fruits</li>
+                <li>최소 주문수량갯수:1</li>
+                <li>최대 주문수량갯수:3</li>
               </ul>
               <div class="product_detail_share_box">
                 <div class="share_box_title">
-                  <h2>Share with friends</h2>
+                  <h2>공유하기</h2>
                 </div>
                 <div class="share_box_social">
                   <a href="#"><i class="fab fa-facebook-square"></i></a>
@@ -88,6 +88,9 @@
                     <div class="content">
                       <div class="product-details-content">
                         <div class="desc-content-box">
+                          <img
+                            src="https://idpet.co.kr/ko_finder/userfiles/files/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EB%8B%A8%ED%92%88_%EB%94%A5%EA%B7%B8%EB%A6%B0_%EC%99%B8%EC%9E%A5%ED%83%9C%EA%B7%B8_0628.jpg"
+                          />
                           <p>
                             Lorem ipsum dolor sit amet sectetur adipiscin elit
                             cras feuiat antesed ces condimentum viverra duis
