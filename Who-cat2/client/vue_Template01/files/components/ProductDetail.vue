@@ -179,28 +179,24 @@
                           <div class="col-xl-12">
                             <div class="product_reviews_box">
                               <h3 class="product_reviews_title">
-                                2 Product reviews
+                                2 개의 리뷰가 있습니다.
                               </h3>
                               <div class="product_reviews_single">
                                 <div class="product_reviews_image">
                                   <img
-                                    src="/assets/images/shop/review-1.png"
+                                    src="data:image/png;base64,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"
                                     alt=""
                                   />
                                 </div>
                                 <div class="product_reviews_content">
-                                  <h3>
-                                    Kevin Martins<span>15 Nov, 2019</span>
-                                  </h3>
+                                  <h3>김규비<span>20201.07.21</span></h3>
                                   <p>
-                                    It has survived not only five centuries, but
-                                    also the leap into electronic typesetting
-                                    unchanged. It was popularised in the sheets
-                                    If you are going to use a passage of Lorem
-                                    Ipsum, you need to be is simply free text.
-                                    Nam nec tellus a odio tincidunt auctor a
-                                    ornare odio. Sed non mauris vitae erat
-                                    consequat auctor eu in elit.
+                                    외장태그 간편하고 좋네요!! 외장태그 간편하고
+                                    좋네요!! 외장태그 간편하고 좋네요!! 외장태그
+                                    간편하고 좋네요!! 외장태그 간편하고 좋네요!!
+                                    외장태그 간편하고 좋네요!! 외장태그 간편하고
+                                    좋네요!! 외장태그 간편하고 좋네요!! 외장태그
+                                    간편하고 좋네요!! 외장태그 간편하고 좋네요!!
                                   </p>
                                   <div
                                     class="product_reviews_rating product_detail_review"
@@ -218,23 +214,19 @@
                               <div class="product_reviews_single">
                                 <div class="product_reviews_image">
                                   <img
-                                    src="/assets/images/shop/review-2.png"
+                                    src="data:image/png;base64,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"
                                     alt=""
                                   />
                                 </div>
                                 <div class="product_reviews_content">
-                                  <h3>
-                                    Kevin Martins<span>15 Nov, 2019</span>
-                                  </h3>
+                                  <h3>김규비<span>20201.07.21</span></h3>
                                   <p>
-                                    It has survived not only five centuries, but
-                                    also the leap into electronic typesetting
-                                    unchanged. It was popularised in the sheets
-                                    If you are going to use a passage of Lorem
-                                    Ipsum, you need to be is simply free text.
-                                    Nam nec tellus a odio tincidunt auctor a
-                                    ornare odio. Sed non mauris vitae erat
-                                    consequat auctor eu in elit.
+                                    외장태그 간편하고 좋네요!! 외장태그 간편하고
+                                    좋네요!! 외장태그 간편하고 좋네요!! 외장태그
+                                    간편하고 좋네요!! 외장태그 간편하고 좋네요!!
+                                    외장태그 간편하고 좋네요!! 외장태그 간편하고
+                                    좋네요!! 외장태그 간편하고 좋네요!! 외장태그
+                                    간편하고 좋네요!! 외장태그 간편하고 좋네요!!
                                   </p>
                                   <div
                                     class="product_reviews_rating product_detail_review"
@@ -253,9 +245,9 @@
                           </div>
                           <div class="col-xl-12">
                             <div class="add_review_box">
-                              <h3 class="add_review_title">Add a review</h3>
+                              <h3 class="add_review_title">리뷰 작성하기</h3>
                               <div class="add_review_rating">
-                                <span>Rate this Product?</span>
+                                <span>별점 넣기</span>
                                 <a href="#"><i class="fa fa-star"></i></a>
                                 <a href="#"><i class="fa fa-star"></i></a>
                                 <a href="#"><i class="fa fa-star"></i></a>
@@ -270,7 +262,7 @@
                                     <div class="input-box">
                                       <textarea
                                         name="review"
-                                        placeholder="Write review"
+                                        placeholder="리뷰를 입력해주세요."
                                         required=""
                                       ></textarea>
                                     </div>
@@ -282,7 +274,7 @@
                                       <input
                                         type="text"
                                         name="name"
-                                        placeholder="Full name"
+                                        placeholder="이름을 입력해주세요."
                                         required=""
                                       />
                                     </div>
@@ -292,7 +284,7 @@
                                       <input
                                         type="email"
                                         name="email"
-                                        placeholder="Email address"
+                                        placeholder="이메일을 입력해주세요."
                                         required=""
                                       />
                                     </div>
@@ -301,9 +293,7 @@
                                 <div class="row">
                                   <div class="col-xl-12">
                                     <div class="review_submit_btn">
-                                      <a href="#" class="thm-btn"
-                                        >Submit Review</a
-                                      >
+                                      <a href="#" class="thm-btn">리뷰 작성</a>
                                     </div>
                                   </div>
                                 </div>
