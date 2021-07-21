@@ -152,9 +152,12 @@
                   <div class="active-tab">
                     <div class="content">
                       <ul class="additionali_nfo list-unstyled">
-                        <li><span>Weight:</span>3kg</li>
-                        <li><span>Category:</span>Food</li>
-                        <li><span>Tags:</span>Vegetables, Fruits</li>
+                        <li><span>재질: </span>인조 가죽, 합성 피혁</li>
+                        <li><span>제조사/수입사: </span>자체제작</li>
+                        <li><span>제품 규격:</span>iso 11784/11785</li>
+                        <li>
+                          <span>사용 방법:</span>목걸이, 하네스 등에 부착 가능
+                        </li>
                       </ul>
                     </div>
                   </div>
