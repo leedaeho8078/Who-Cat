@@ -14,7 +14,7 @@
 
             <nuxt-link to="/about"> <button style="padding: 5px 10px; background-color:#eddd5e; border:none; margin:10px; border-radius:8px;">login</button></nuxt-link>
 
-            <button style="padding: 5px 10px; background-color:#50CB93; border:none; margin:10px; border-radius:8px;">Join</button>
+            <nuxt-link to="/signinpage"><button style="padding: 5px 10px; background-color:#50CB93; border:none; margin:10px; border-radius:8px;">Join</button></nuxt-link>
 
 
 
