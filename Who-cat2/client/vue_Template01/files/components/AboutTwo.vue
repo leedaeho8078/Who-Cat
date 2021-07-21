@@ -30,9 +30,10 @@
           <div class="row low-gutters">
             <div class="col-md-6">
               <input
+                @change="fileSelect"
                 type="file"
                 class="form-control"
-                accept="image/png,image/jpeg"
+                accept=".jpg, .png"
               />
               <div class="alert alert-secondary" role="alert">
                 <ul>
@@ -42,9 +43,10 @@
             </div>
             <div class="col-md-6">
               <input
+                @change="fileSelect"
                 type="file"
                 class="form-control"
-                accept="image/png,image/jpeg"
+                accept=".jpg, .png"
               />
               <div class="alert alert-secondary" role="alert">
                 <ul>
@@ -70,7 +72,7 @@
                 <label
                   ><input
                     type="radio"
-                    value="0"
+                    value="중성"
                     name="gender"
                     v-model="catGender"
                   />중성화완료</label
@@ -78,7 +80,7 @@
                 <label
                   ><input
                     type="radio"
-                    value="1"
+                    value="암컷"
                     name="gender"
                     v-model="catGender"
                   />암컷</label
@@ -86,7 +88,7 @@
                 <label
                   ><input
                     type="radio"
-                    value="2"
+                    value="수컷"
                     name="gender"
                     v-model="catGender"
                   />수컷</label
@@ -248,7 +250,8 @@ export default {
       ps: "",
       missingYN: "",
       userName: "",
-      userId: ""
+      userId: "",
+      imageList: []
     };
   },
   setup() {},
@@ -273,12 +276,23 @@ export default {
             ps: this.ps,
             missingYN: this.missingYN,
             userName: this.userName,
-            userId: this.userId
+            userId: this.userId,
+            image1: this.imageList[0].filename,
+            image2: this.imageList[1].filename
           }
         ]
       });
       console.log(r);
       this.getList();
+    },
+    async fileSelect(e) {
+      const r = await this.$upload("/api/uploadFile", e.target.files[0]);
+      console.log(r);
+      this.imageList.push({
+        // src: `http://localhost:3001/static/${r.filename}`,
+        filename: r.filename,
+        originalname: r.originalname
+      });
     }
   }
 };
