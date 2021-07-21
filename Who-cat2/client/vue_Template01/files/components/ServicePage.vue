@@ -138,6 +138,8 @@
           </table>
 
           {{ this.cat }}
+
+          {{ this.catimgPath }}
         </div>
       </form>
     </div>
@@ -164,9 +166,18 @@ export default {
         param: [this.number]
       });
 
+      const catimgPath = await this.$api("/api/getCatImgPath", "post", {
+        param: [this.number]
+      });
+
       if (cat.length > 0) {
         this.cat = cat[0];
         console.log(this.cat);
+      }
+
+      if (cat.length > 0) {
+        this.catimgPath = catimgPath[0];
+        console.log(this.catimgPath);
       }
     }
     // async getList() {
