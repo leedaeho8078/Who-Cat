@@ -89,32 +89,34 @@
                       <div class="product-details-content">
                         <div class="desc-content-box">
                           <img
+                            style="margin:10px"
                             src="https://idpet.co.kr/ko_finder/userfiles/files/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EB%8B%A8%ED%92%88_%EB%94%A5%EA%B7%B8%EB%A6%B0_%EC%99%B8%EC%9E%A5%ED%83%9C%EA%B7%B8_0628.jpg"
                           />
+
+                          <p style="font-size:30px;color:black">
+                            회원가입 안내
+                          </p>
+                          <br />
                           <p>
-                            Lorem ipsum dolor sit amet sectetur adipiscin elit
-                            cras feuiat antesed ces condimentum viverra duis
-                            autue nim convallis id diam vitae duis egety dictum
-                            erosin dictum sem. Vivamus sed molestie sapien
-                            aliquam et facilisis arcu dut molestie augue
-                            suspendisse sodales tortor nunced quis cto ligula
-                            posuere cursus keuis aute irure dolor in
-                            reprehenderit in voluptate velit esse cillum dolore
-                            eu fugiat nulla pariatur. Excepteur sint occaecated
-                            cupidatat non proident sunt in culpa qui officia
-                            deserunt mollit anim id est laborum ivamus sed
-                            molestie sapien.
+                            회원가입 메뉴를 통해 이용약관, 개인정보보호정책 동의
+                            및 일정 양식의 가입항목을 기입함으로써 회원에
+                            가입되며, 가입 즉시 서비스를 무료로 이용하실 수
+                            있습니다. 주문하실 때에 입력해야하는 각종 정보들을
+                            일일이 입력하지 않으셔도 됩니다. 공동구매,
+                            경매행사에 항상 참여하실 수 있습니다. 회원을 위한
+                            이벤트 및 각종 할인행사에 참여하실 수 있습니다.
                           </p>
                           <p class="desc-content-box_bottom">
-                            Aliquam et facilisis arcuut olestie augue.
-                            Suspendisse sodales tortor nunc quis auctor ligula
-                            posuere cursus duis aute irure dolor in
-                            reprehenderit in voluptate velit esse cill doloreeu
-                            fugiat nulla pariatur excepteur sint occaecat
-                            cupidatat non proident sunt in culpa qui officia
-                            deserunt mollit anim id est laborum. Vivaus sed
-                            delly molestie sapien. Aliquam et facilisis arcuut
-                            molestie augue.
+                            고액결제의 경우 안전을 위해 카드사에서 확인전화를
+                            드릴 수도 있습니다. 확인과정에서 도난 카드의
+                            사용이나 타인 명의의 주문등 정상적인 주문이 아니라고
+                            판단될 경우 임의로 주문을 보류 또는 취소할 수
+                            있습니다. 무통장 입금은 상품 구매 대금은 PC뱅킹,
+                            인터넷뱅킹, 텔레뱅킹 혹은 가까운 은행에서 직접
+                            입금하시면 됩니다. 주문시 입력한 입금자명과
+                            실제입금자의 성명이 반드시 일치하여야 하며, 7일
+                            이내로 입금을 하셔야 하며 입금되지 않은 주문은
+                            자동취소 됩니다.
                           </p>
                         </div>
                       </div>
