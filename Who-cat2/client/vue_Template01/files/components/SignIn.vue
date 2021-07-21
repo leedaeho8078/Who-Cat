@@ -6,28 +6,28 @@
         <div class="col-md-7 col-sm-6 col-xs-6 login-form">
           <form>
             <div class="form-group">
-              <input class="form-control" placeholder="이름" type="text" />
+              <input class="form-control" placeholder="이름" type="text" v-model="userName" />
             </div>
             <div class="form-group">
-              <input class="form-control" placeholder="아이디" type="text" />
+              <input class="form-control" placeholder="아이디" type="text" v-model="userAccount"/>
             </div>
             <div class="form-group">
-              <input class="form-control" placeholder="비밀번호" type="password" />
+              <input class="form-control" placeholder="비밀번호" type="password" v-model="userPassword" />
             </div>
             <div class="form-group">
-              <input class="form-control" placeholder="주소" type="text" />
+              <input class="form-control" placeholder="주소" type="text" v-model="userAddress" />
             </div>
             <div class="form-group">
-              <input class="form-control" placeholder="전화번호" type="text" />
+              <input class="form-control" placeholder="전화번호" type="text" v-model="userTell" />
             </div>
             <div class="form-group">
-              <input class="form-control" placeholder="이메일" type="text" />
+              <input class="form-control" placeholder="이메일" type="text" v-model="userEmail"/>
             </div>
             
 
            
 
-            <button style="padding: 5px 10px; background-color:#50CB93; border:none; margin:10px; border-radius:8px;">Join</button>
+            <button style="padding: 5px 10px; background-color:#50CB93; border:none; margin:10px; border-radius:8px;" @click="createUser">Join</button>
 
 
 
@@ -45,7 +45,15 @@ export default {
   components: {},
   data() {
     return {
-      sampleData: ""
+      sampleData: "",
+      userName:"",
+      userAccount:"",
+      userPassword :"",
+      userAddress :"",
+      userTell :"",
+      userEmail:"",
+
+
     };
   },
   setup() {},
@@ -53,6 +61,25 @@ export default {
   mounted() {},
   unmounted() {},
   methods: {
+     async createUser() {
+      const r = await this.$api("/api/createUser", "post", {
+        param: [
+          {
+            userName : this.userName,
+            userAccount : this.userAccount,
+            userPassword : this.userPassword,
+            userAddress : this.userAddress,
+            userTell : this.userTell,
+            userEmail : this.userEmail,
+
+
+
+
+          }
+        ]
+      });
+      console.log(r);
+    }
    
 },
 };

@@ -248,7 +248,7 @@ export default {
       ps: "",
       missingYN: "",
       userName: "",
-      userId: ""
+      userId: 0
     };
   },
   setup() {},

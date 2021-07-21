@@ -20,6 +20,9 @@ module.exports = {
   createCat: {
     query: "insert into cat set ?",
   },
+  createUser: {
+    query: "insert into user set ?",
+  },
   // userList: {
   //   query: "select * from user",
   // },
