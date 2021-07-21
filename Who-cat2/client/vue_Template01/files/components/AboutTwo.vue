@@ -112,12 +112,12 @@
             </div>
             <div class="col-md-12">
               <div class="input-group">
-                <input type="number" name="subject" placeholder="보호자 아이디를 입력해주세요." v-model="catSpecies" />
+                <input type="password" maxlength="4" name="userid" placeholder="보호자 아이디를 숫자4자리로 입력해주세요."  />
               </div>
             </div>
             <div class="col-md-6">
               <div class="input-group">
-                <input type="text" name="subject" placeholder="보호자 이름을 입력해주세요." v-model="catSpecies" />
+                <input type="text" name="username" placeholder="보호자 이름을 입력해주세요."  />
               </div>
             </div>
             <div class="col-md-6">
