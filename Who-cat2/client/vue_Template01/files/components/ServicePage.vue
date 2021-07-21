@@ -128,7 +128,7 @@
                 <td>{{ this.cat.userId }}</td>
                 <td>{{ this.cat.catBirth }}</td>
                 <td>{{ this.cat.catGender }}</td>
-                <td>{{ this.cat.catSpeciesId }}</td>
+                <td>{{ this.cat.catSpecies }}</td>
                 <td>{{ this.cat.userName }}</td>
                 <td>{{ this.cat.ps }}</td>
                 <td>{{ this.cat.missingYN }}</td>

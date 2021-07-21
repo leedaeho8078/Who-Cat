@@ -112,12 +112,12 @@
             </div>
             <div class="col-md-12">
               <div class="input-group">
-                <input type="password" maxlength="4" name="userid" placeholder="보호자 아이디를 숫자4자리로 입력해주세요."  />
+                <input type="password" maxlength="4" name="userid" placeholder="보호자 아이디를 숫자4자리로 입력해주세요." v-model.number="userId" />
               </div>
             </div>
             <div class="col-md-6">
               <div class="input-group">
-                <input type="text" name="username" placeholder="보호자 이름을 입력해주세요."  />
+                <input type="text" name="username" placeholder="보호자 이름을 입력해주세요." v-model="userName" />
               </div>
             </div>
             <div class="col-md-6">
@@ -125,8 +125,8 @@
                 class="input-group"
                 style="color:black; background-color:#eceeef; border-radius: 5px; height:80px; padding:27px;"
               >
-                <label><input type="radio" value="Y" name="missingYN" />유실묘(O)</label>               
-                  <label><input type="radio" value="N" name="missingYN" />유실묘(X)</label>
+                <label><input type="radio" value="Y" name="missingYN" v-model="missingYN"/>유실묘(O)</label>               
+                  <label><input type="radio" value="N" name="missingYN" v-model="missingYN"/>유실묘(X)</label>
                   
 
                   <!-- <div class="input-group">
@@ -183,6 +183,9 @@ export default {
       catBirth:"",
       catSpecies:"",
       ps:"",
+      missingYN:"",
+      userName:"",
+      userId:"",
     };
 
   },
@@ -206,6 +209,9 @@ export default {
            catBirth : this.catBirth,
            catSpecies : this.catSpecies,
            ps : this.ps,
+           missingYN :this.missingYN,
+           userName : this.userName,
+           userId: this.userId,
           },
    
         ],

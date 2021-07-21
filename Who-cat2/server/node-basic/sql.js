@@ -3,7 +3,7 @@ module.exports = {
     query: "select * from test2",
   },
   createPerson: {
-    query: "insert into test2 set ?",
+    query: "insert into user set ?",
   },
   deletePerson: {
     query: "delete from test2 where id=?",
