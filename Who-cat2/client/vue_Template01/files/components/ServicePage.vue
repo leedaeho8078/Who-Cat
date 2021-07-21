@@ -38,7 +38,7 @@
           <div class="col-md-12">
             <div class="input-group contact__btn">
               <button
-                type="submit"
+                type="button"
                 class="thm-btn contact-one__btn"
                 @click="getDetail()"
                 style="margin-left:450px"
@@ -128,7 +128,7 @@
                 <td>{{ this.cat.userId }}</td>
                 <td>{{ this.cat.catBirth }}</td>
                 <td>{{ this.cat.catGender }}</td>
-                <td>{{ this.cat.catSpeciesId }}</td>
+                <td>{{ this.cat.catSpecies }}</td>
                 <td>{{ this.cat.userName }}</td>
                 <td>{{ this.cat.ps }}</td>
                 <td>{{ this.cat.missingYN }}</td>
@@ -232,13 +232,13 @@ export default {
   data() {
     return {
       list: [],
-      number: "",
+      number: 0,
       cat: {}
     };
   },
 
   mounted() {
-    this.getDetail();
+    // this.getDetail();
   },
   methods: {
     async getDetail() {

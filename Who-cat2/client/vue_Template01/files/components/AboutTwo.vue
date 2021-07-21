@@ -148,21 +148,29 @@
             </div>
             <div class="col-md-12">
               <div class="input-group">
+<<<<<<< HEAD
+                <input type="password" maxlength="4" name="userid" placeholder="보호자 아이디를 숫자4자리로 입력해주세요." v-model.number="userId" />
+=======
                 <input
                   type="password"
                   maxlength="4"
                   name="userid"
                   placeholder="보호자 아이디를 숫자4자리로 입력해주세요."
                 />
+>>>>>>> 666b0e6dc6086856eeb96e4ac8c3c14beb626603
               </div>
             </div>
             <div class="col-md-6">
               <div class="input-group">
+<<<<<<< HEAD
+                <input type="text" name="username" placeholder="보호자 이름을 입력해주세요." v-model="userName" />
+=======
                 <input
                   type="text"
                   name="username"
                   placeholder="보호자 이름을 입력해주세요."
                 />
+>>>>>>> 666b0e6dc6086856eeb96e4ac8c3c14beb626603
               </div>
             </div>
             <div class="col-md-6">
@@ -170,6 +178,11 @@
                 class="input-group"
                 style="color:black; background-color:#eceeef; border-radius: 5px; height:80px; padding:27px;"
               >
+<<<<<<< HEAD
+                <label><input type="radio" value="Y" name="missingYN" v-model="missingYN"/>유실묘(O)</label>               
+                  <label><input type="radio" value="N" name="missingYN" v-model="missingYN"/>유실묘(X)</label>
+                  
+=======
                 <label
                   ><input
                     type="radio"
@@ -184,6 +197,7 @@
                     name="missingYN"
                   />유실묘(X)</label
                 >
+>>>>>>> 666b0e6dc6086856eeb96e4ac8c3c14beb626603
 
                 <!-- <div class="input-group">
                 <input type="text" name="name" placeholder="고양이 성별" /> -->
@@ -236,12 +250,24 @@ export default {
   components: {},
   data() {
     return {
+<<<<<<< HEAD
+      list :[],
+      catName:"",
+      catGender:"",
+      catBirth:"",
+      catSpecies:"",
+      ps:"",
+      missingYN:"",
+      userName:"",
+      userId:"",
+=======
       list: [],
       catName: "",
       catGender: "",
       catBirth: "",
       catSpecies: "",
       ps: ""
+>>>>>>> 666b0e6dc6086856eeb96e4ac8c3c14beb626603
     };
   },
   setup() {},
@@ -259,6 +285,19 @@ export default {
       const r = await this.$api("/api/createCat", "post", {
         param: [
           {
+<<<<<<< HEAD
+          catName : this.catName,
+           catGender : this.catGender,
+           catBirth : this.catBirth,
+           catSpecies : this.catSpecies,
+           ps : this.ps,
+           missingYN :this.missingYN,
+           userName : this.userName,
+           userId: this.userId,
+          },
+   
+        ],
+=======
             catName: this.catName,
             catGender: this.catGender,
             catBirth: this.catBirth,
@@ -266,6 +305,7 @@ export default {
             ps: this.ps
           }
         ]
+>>>>>>> 666b0e6dc6086856eeb96e4ac8c3c14beb626603
       });
       console.log(r);
       this.getList();
