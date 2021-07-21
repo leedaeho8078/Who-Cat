@@ -327,15 +327,18 @@
             <div class="col-xl-3 col-lg-3 col-md-6">
               <div class="all_products_single text-center">
                 <div class="all_product_item_image">
-                  <img src="/assets/images/shop/similar_pro_1.jpg" alt="" />
+                  <img
+                    src="https://www.idpet.co.kr/upload/product/KakaoTalk_20210611_163025708_01.png"
+                    alt=""
+                  />
                   <div class="all_product_hover">
                     <div class="all_product_icon">
                       <a href="#"><span class="icon-shopping-cart"></span></a>
                     </div>
                   </div>
                 </div>
-                <h4>Split kiwi</h4>
-                <p>$5.98</p>
+                <h4>누구냥백+파우치</h4>
+                <p>20,000원</p>
               </div>
             </div>
             <div class="col-xl-3 col-lg-3 col-md-6">
