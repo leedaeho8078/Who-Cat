@@ -111,6 +111,30 @@
               </div>
             </div>
             <div class="col-md-12">
+              <div class="input-group">
+                <input type="number" name="subject" placeholder="보호자 아이디를 입력해주세요." v-model="catSpecies" />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="input-group">
+                <input type="text" name="subject" placeholder="보호자 이름을 입력해주세요." v-model="catSpecies" />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div
+                class="input-group"
+                style="color:black; background-color:#eceeef; border-radius: 5px; height:80px; padding:27px;"
+              >
+                <label><input type="radio" value="Y" name="missingYN" />유실묘(O)</label>               
+                  <label><input type="radio" value="N" name="missingYN" />유실묘(X)</label>
+                  
+
+                  <!-- <div class="input-group">
+                <input type="text" name="name" placeholder="고양이 성별" /> -->
+                </p>
+              </div>
+            </div>
+            <div class="col-md-12">
               <div
                 class="input-group contact__btn"
                 style="align-content:center"
