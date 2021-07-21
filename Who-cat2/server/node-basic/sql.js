@@ -28,6 +28,7 @@ module.exports = {
   getCatImgPath: {
     query: "select * from catImg where catImgId = ?",
   },
+
   // userList: {
   //   query: "select * from user",
   // },

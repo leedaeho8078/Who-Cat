@@ -139,6 +139,8 @@
 
           {{ this.cat }}
 
+          <br />
+          <br />
           {{ this.catimgPath }}
         </div>
       </form>
