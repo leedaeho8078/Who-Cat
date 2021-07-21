@@ -55,11 +55,7 @@
           class="card text-white bg-dark mb-3"
           style="max-width: 30rem; margin-left:350px;"
         >
-          <img
-            src="https://flexible.img.hani.co.kr/flexible/normal/970/647/imgdb/original/2020/0702/20200702500595.jpg"
-            class="card-img-top"
-            alt=""
-          />
+          <img :src="cat.image1" class="card-img-top" alt="" />
           <div class="card-header">고양이 고유 아이디:{{ this.cat.catId }}</div>
           <div class="card-body">
             <h5 class="card-title">고양이 이름: {{ this.cat.catName }}</h5>
@@ -139,6 +135,8 @@
 
           {{ this.cat }}
 
+          <br />
+          <br />
           {{ this.catimgPath }}
         </div>
       </form>
@@ -171,6 +169,7 @@ export default {
       });
 
       if (cat.length > 0) {
+        cat[0].image1 = `http://localhost:3001/static/${cat[0].image1}`;
         this.cat = cat[0];
         console.log(this.cat);
       }
