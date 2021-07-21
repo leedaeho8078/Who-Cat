@@ -20,14 +20,12 @@ module.exports = {
   createCat: {
     query: "insert into cat set ?",
   },
-<<<<<<< HEAD
 
   getCatImgPath: {
     query: "select * from catImg where catImgId = ?",
-=======
+  },
   createUser: {
     query: "insert into user set ?",
->>>>>>> 3e38594a370c5dd20a338500be1aabdaeeee81d7
   },
   // userList: {
   //   query: "select * from user",
