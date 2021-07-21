@@ -55,34 +55,30 @@
           class="card text-white bg-dark mb-3"
           style="max-width: 30rem; margin-left:350px;"
         >
-          <div class="card-header">고유 아이디:{{ this.cat.catId }}</div>
+          <div class="card-header">고양이 고유 아이디:{{ this.cat.catId }}</div>
           <div class="card-body">
             <h5 class="card-title">고양이 이름: {{ this.cat.catName }}</h5>
             <p class="card-text">
-              보호자 아이디:
+              보호자 아이디: {{ this.cat.userId }}
               <br />
-              고양이 생일:
+              고양이 생일: {{ this.cat.catBirth }}
+              <br />
+              종: {{ this.cat.catSpecies }}
+
               <br />
 
-              성별:
+              성별: {{ this.cat.catGender }}
+
               <br />
 
-              종:
+              보호자 이름: {{ this.cat.userName }}
               <br />
 
-              보호자 이름:
+              실종여부: {{ this.cat.missingYN }}
               <br />
-
-              실종여부:
-              <br />
-
-              P.S:
             </p>
 
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
+            <p class="card-text">P.S: {{ this.cat.ps }}</p>
           </div>
         </div>
 
