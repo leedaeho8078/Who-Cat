@@ -15,19 +15,6 @@ export default {
           console.log(e);
         })
       ).data;
-    },
-    async $upload(url, file) {
-      const formData = new FormData();
-      formData.append("attachment", file);
-      return (
-        await axios
-          .post(url, formData, {
-            headers: { "Content-Type": "multipart/form-data" }
-          })
-          .catch(e => {
-            console.log(e);
-          })
-      ).data;
     }
   }
 };
