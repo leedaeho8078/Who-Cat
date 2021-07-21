@@ -316,7 +316,8 @@
       <div class="container">
         <div class="block-title text-center">
           <p>Shop items</p>
-          <h3>similar products</h3>
+          <br />
+          <p style="font-size:50px; color:black">이런 굿즈는 어떠냐옹?</p>
           <div class="leaf">
             <img src="/assets/images/resources/leaf.png" alt="" />
           </div>
