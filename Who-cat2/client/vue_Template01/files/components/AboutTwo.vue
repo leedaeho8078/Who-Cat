@@ -211,18 +211,25 @@
 
                 <br />
 
-                <input
-                  v-model="catName"
+                <!-- <input
                   maxlength="4"
                   name="newCatId"
                   placeholder="생성된 고유 고양이 ID"
                   readonly
                   style="width:50%; margin-left:250px"
-                />
+                /> -->
 
-                <!--MODAL  -->
-
-                <!--  -->
+                <span style="color:tomato"
+                  >생성된 고유 고양이 id:{{ catId }}</span
+                >
+                <button
+                  type="submit"
+                  class="thm-btn contact-one__btn"
+                  @click="getList()"
+                  style="margin:0 0 0 450px"
+                >
+                  불러오기
+                </button>
               </div>
             </div>
           </div>
@@ -267,7 +274,9 @@ export default {
       missingYN: "",
       userName: "",
       userId: "",
-      imageList: []
+      imageList: [],
+      cat: {},
+      catId: ""
     };
   },
   setup() {},
@@ -278,9 +287,18 @@ export default {
   unmounted() {},
   methods: {
     async getList() {
-      this.list = await this.$api("/api/getList", "get", {});
+      this.list = await this.$api("/api/catList", "post", {});
+      this.catId = this.list[this.list.length - 1]["catId"];
       console.log(this.list);
     },
+    // async getcatDetail() {
+    //   const cat = await this.$api("/api/getcatDetail", "post", {
+    //     param: [this.catName]
+    //   });
+    //   if (cat.length > 0) {
+    //     this.cat = cat[0];
+    //   }
+    // },
     async createCat() {
       const r = await this.$api("/api/createCat", "post", {
         param: [

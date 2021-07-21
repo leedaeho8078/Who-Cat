@@ -27,6 +27,14 @@ module.exports = {
   createUser: {
     query: "insert into user set ?",
   },
+  getcatDetail: {
+    query: "select * from cat where catId =?",
+  },
+
+  getContact: {
+    query: "select * from user where userId = ?",
+  },
+
   // userList: {
   //   query: "select * from user",
   // },
