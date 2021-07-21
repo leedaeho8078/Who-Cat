@@ -204,9 +204,20 @@
                   type="submit"
                   class="thm-btn contact-one__btn"
                   @click="createCat()"
+                  style="margin:0 0 0 450px"
                 >
                   제출하기
                 </button>
+
+                <br />
+
+                <input
+                  maxlength="4"
+                  name="newCatId"
+                  placeholder="생성된 고유 고양이 ID"
+                  readonly
+                  style="width:50%; margin-left:250px"
+                />
               </div>
             </div>
           </div>

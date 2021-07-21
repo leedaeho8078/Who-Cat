@@ -50,7 +50,6 @@
         </div>
 
         <br />
-        <div></div>
         <div
           class="card text-white bg-dark mb-3"
           style="max-width: 30rem; margin-left:350px;"
