@@ -55,26 +55,32 @@
           style="max-width: 30rem; margin-left:350px;"
         >
           <img :src="cat.image1" class="card-img-top" alt="" />
-          <div class="card-header">고양이 고유 아이디:{{ this.cat.catId }}</div>
+          <div class="card-header">
+            🐈고양이 고유 아이디: {{ this.cat.catId }}
+          </div>
           <div class="card-body">
             <h5 class="card-title">고양이 이름: {{ this.cat.catName }}</h5>
             <p class="card-text">
-              보호자 아이디: {{ this.cat.userId }}
-              <br />
               고양이 생일: {{ this.cat.catBirth }}
               <br />
-              종: {{ this.cat.catSpecies }}
+              고양이 종: {{ this.cat.catSpecies }}
 
               <br />
 
-              성별: {{ this.cat.catGender }}
+              고양이 성별: {{ this.cat.catGender }}
+              <br />
+              실종여부:
+              {{ this.cat.missingYN }}
 
+              <br />
+
+              <br />
+              보호자 아이디: {{ this.cat.userId }}
               <br />
 
               보호자 이름: {{ this.cat.userName }}
               <br />
-
-              실종여부: {{ this.cat.missingYN }}
+              보호자 연락처:
               <br />
             </p>
 
