@@ -212,6 +212,7 @@
                 <br />
 
                 <input
+                  v-model="catName"
                   maxlength="4"
                   name="newCatId"
                   placeholder="생성된 고유 고양이 ID"
