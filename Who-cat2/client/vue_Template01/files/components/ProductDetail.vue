@@ -344,43 +344,52 @@
             <div class="col-xl-3 col-lg-3 col-md-6">
               <div class="all_products_single text-center">
                 <div class="all_product_item_image">
-                  <img src="/assets/images/shop/similar_pro_2.jpg" alt="" />
+                  <img
+                    src="https://www.idpet.co.kr/upload/product/KakaoTalk_20210611_163025708.png"
+                    alt=""
+                  />
                   <div class="all_product_hover">
                     <div class="all_product_icon">
                       <a href="#"><span class="icon-shopping-cart"></span></a>
                     </div>
                   </div>
                 </div>
-                <h4>Chinese cabbage</h4>
-                <p>$4.99</p>
+                <h4>누구냥 냥여권</h4>
+                <p>10,000원</p>
               </div>
             </div>
             <div class="col-xl-3 col-lg-3 col-md-6">
               <div class="all_products_single text-center">
                 <div class="all_product_item_image">
-                  <img src="/assets/images/shop/similar_pro_3.jpg" alt="" />
+                  <img
+                    src="https://www.idpet.co.kr/upload/product/47054_%E1%84%8C%E1%85%A6%E1%84%86%E1%85%A9%E1%86%A8%E1%84%8B%E1%85%B3%E1%86%AF-%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%85%E1%85%A7%E1%86%A8%E1%84%92%E1%85%A2%E1%84%8C%E1%85%AE%E1%84%89%E1%85%A6%E1%84%8B%E1%85%AD.-001%20%281%29.png"
+                    alt=""
+                  />
                   <div class="all_product_hover">
                     <div class="all_product_icon">
                       <a href="#"><span class="icon-shopping-cart"></span></a>
                     </div>
                   </div>
                 </div>
-                <h4>Chili pepper</h4>
-                <p>$4.98</p>
+                <h4>누구냥 럭셔리 패키지</h4>
+                <p>49,000원</p>
               </div>
             </div>
             <div class="col-xl-3 col-lg-3 col-md-6">
               <div class="all_products_single text-center">
                 <div class="all_product_item_image">
-                  <img src="/assets/images/shop/similar_pro_4.jpg" alt="" />
+                  <img
+                    src="https://www.idpet.co.kr/upload/product/%E1%84%8C%E1%85%A6%E1%84%86%E1%85%A9%E1%86%A8%E1%84%8B%E1%85%B3%E1%86%AF-%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%85%E1%85%A7%E1%86%A8%E1%84%92%E1%85%A2%E1%84%8C%E1%85%AE%E1%84%89%E1%85%A6%E1%84%8B%E1%85%AD.-008.png"
+                    alt=""
+                  />
                   <div class="all_product_hover">
                     <div class="all_product_icon">
                       <a href="#"><span class="icon-shopping-cart"></span></a>
                     </div>
                   </div>
                 </div>
-                <h4>lemons</h4>
-                <p>$6.00</p>
+                <h4>누구냥 냥냥민증</h4>
+                <p>13,000원</p>
               </div>
             </div>
           </div>
