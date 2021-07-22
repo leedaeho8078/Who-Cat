@@ -55,33 +55,27 @@
           style="max-width: 30rem; margin-left:350px;"
         >
           <img :src="cat.image1" class="card-img-top" alt="" />
-          <div class="card-header">
-            고양이 고유 아이디: {{ this.cat.catId }} 🐈
-          </div>
+          <div class="card-header">고양이 고유 아이디:{{ this.cat.catId }}</div>
           <div class="card-body">
             <h5 class="card-title">고양이 이름: {{ this.cat.catName }}</h5>
-            <p class="card-text">
-              고양이 생일: {{ this.cat.catBirth }} 🎂
+            <p class="card-text" v-if="cat.userId">
+              보호자 아이디: {{ this.cat.userId }}
               <br />
-              고양이 종: {{ this.cat.catSpecies }}
+              고양이 생일: {{ this.cat.catBirth.substr(0, 10) }}
+              <br />
+              종: {{ this.cat.catSpecies }}
 
               <br />
 
-              고양이 성별: {{ this.cat.catGender }}
-              <br />
-              실종여부:
-              {{ this.cat.missingYN }} 🤦
+              성별: {{ this.cat.catGender }}
 
-<div class="card-header">보호자 아이디: {{ this.cat.userId }} 🙆 
-  <br>
-      보호자 이름: {{ this.cat.userName }}
               <br />
-              보호자 연락처: {{ this.catContact.userTell}}
-              <br />
-          </div>
-          
 
-          
+              보호자 이름: {{ this.cat.userName }}
+              <br />
+
+              실종여부: {{ this.cat.missingYN }}
+              <br />
             </p>
 
             <p class="card-text">P.S: {{ this.cat.ps }}</p>
@@ -91,7 +85,7 @@
         <br />
 
         <div>
-          <table class="table table-dark">
+          <!-- <table class="table table-dark">
             <thead>
               <th>
                 고유 아이디
@@ -136,13 +130,13 @@
                 <td>{{ this.cat.missingYN }}</td>
               </tr>
             </tbody>
-          </table>
+          </table> -->
 
-          {{ this.cat }}
+          <!-- {{ this.cat }} -->
 
           <br />
           <br />
-          {{ this.catimgPath }}
+          <!-- {{ this.catimgPath }} -->
         </div>
       </form>
     </div>
@@ -156,12 +150,15 @@ export default {
     return {
       list: [],
       number: 0,
-      cat: {},
-      catContact: {},
+      cat: {}
     };
   },
 
   mounted() {
+    if (this.$route.query.catid) {
+      this.number = this.$route.query.catid;
+      this.getDetail();
+    }
     // this.getDetail();
   },
   methods: {
@@ -183,15 +180,6 @@ export default {
       if (cat.length > 0) {
         this.catimgPath = catimgPath[0];
         console.log(this.catimgPath);
-      }
-      const catContact = await this.$api("/api/getContact", "post", {
-        param: [this.cat.userId]
-
-      });
-
-      if (catContact.length > 0) {
-        this.catContact = catContact[0];
-        console.log(this.catContact);
       }
     }
     // async getList() {

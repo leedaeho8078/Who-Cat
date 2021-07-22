@@ -201,7 +201,7 @@
                 style="align-content:center"
               >
                 <button
-                  type="submit"
+                  type="button"
                   class="thm-btn contact-one__btn"
                   @click="createCat()"
                   style="margin:0px 0px 0px 450px"
@@ -212,7 +212,7 @@
                 <br />
                 <br />
 
-                <button
+                <!-- <button
                   type="submit"
                   class="thm-btn contact-one__btn"
                   @click="getList()"
@@ -225,7 +225,7 @@
                 margin:50px 0 0 0"
                 >
                   생성된 고유 고양이 id:{{ catId }}</span
-                >
+                > -->
               </div>
             </div>
           </div>
@@ -314,7 +314,8 @@ export default {
         ]
       });
       console.log(r);
-      this.getList();
+      this.$router.push({ path: "/service", query: { catid: r.insertId } });
+      // this.getList();
     },
     async fileSelect(e) {
       const r = await this.$upload("/api/uploadFile", e.target.files[0]);
