@@ -23,6 +23,9 @@
             <div class="form-group">
               <input class="form-control" placeholder="이메일" type="text" v-model="userEmail"/>
             </div>
+              <div class="form-group">
+              <input class="form-control" placeholder="등록 조회시 사용되는 고유숫자 4자리" type="text" v-model="userId"/>
+            </div>
             
 
            
@@ -52,6 +55,7 @@ export default {
       userAddress :"",
       userTell :"",
       userEmail:"",
+      userId: "",
 
 
     };
@@ -65,20 +69,20 @@ export default {
       const r = await this.$api("/api/createUser", "post", {
         param: [
           {
+            userId: this.userId,
             userName : this.userName,
             userAccount : this.userAccount,
             userPassword : this.userPassword,
             userAddress : this.userAddress,
             userTell : this.userTell,
             userEmail : this.userEmail,
-
-
-
-
           }
         ]
       });
       console.log(r);
+      alert("회원가입 완료다옹 !! 😻");
+
+      
     }
    
 },
